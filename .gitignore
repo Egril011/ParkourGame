@@ -12,6 +12,7 @@
 !/Source/
 !/Config/
 !/Content/Blueprint/
+!/Content/Enum/
 !/Content/FirstPerson/
 
 # Ignore most of the Content folder (besides exceptions above)
