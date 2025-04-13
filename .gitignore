@@ -1,9 +1,32 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
+# Ignore everything by default
+*
+
+# But allow all directories so we can add exceptions later
+!*/
+
+# Always include the .gitignore and .uproject file
+!.gitignore
+!/*.uproject
+
+# Allow source code and key content folders
+!/Source/
+!/Config/
+!/Content/Blueprint/
+!/Content/FirstPerson/
+
+# Ignore most of the Content folder (besides exceptions above)
+# This line can be removed if you want more folders tracked manually
+/Content/*
+
+# Build, intermediate, cache, and saved folders – ignore them
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+# Ignore IDE/editor settings and build metadata
+.vscode/
+.vs/
 *.VC.db
 *.opensdf
 *.opendb
