@@ -1607,3 +1607,1314 @@ Make sure '/Game/Blueprint/Inventory/BP_InventoryManager.BP_InventoryManager_C' 
 [2025.04.14-14.54.15:366][716]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.04.14-14.54.15:366][716]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.04.14-14.54.15:366][716]AssetCheck: /Game/Blueprint/Inventory/BP_InventoryManager Validating asset
+[2025.04.14-14.58.32:539][800]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1019.788025
+[2025.04.14-14.58.32:646][808]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.14-14.58.32:646][808]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1019.885437, Update Interval: 305.440216
+[2025.04.14-14.58.33:229][878]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.04.14-14.58.33:254][878]LogContentBrowser: Creating deferred item: NewFolder
+[2025.04.14-14.58.33:262][879]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.04.14-14.58.44:146][185]LogContentBrowser: Attempting asset rename: NewFolder -> ItemsInteraction
+[2025.04.14-14.58.44:147][185]LogContentBrowser: End creating deferred item NewFolder
+[2025.04.14-14.58.49:688][610]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.04.14-14.58.49:698][610]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.04.14-14.58.49:705][610]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.04.14-14.58.49:730][612]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.04.14-14.59.04:331][358]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_ItemsInteractMaster
+[2025.04.14-14.59.04:426][358]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.04.14-14.59.12:659][972]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.04.14-14.59.21:313][911]LogContentBrowser: Deferred new asset file creation: NewInterface
+[2025.04.14-14.59.21:319][911]LogContentBrowser: Creating deferred item: NewInterface
+[2025.04.14-14.59.21:327][912]LogContentBrowser: Renaming the item being created (Deferred Item: NewInterface).
+[2025.04.14-14.59.30:218][975]LogContentBrowser: Attempting asset rename: NewInterface -> BPI_Interaction
+[2025.04.14-14.59.30:310][975]LogContentBrowser: End creating deferred item NewInterface
+[2025.04.14-14.59.35:938][255]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.04.14-14.59.43:135][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.04.14-14.59.43:863][ 97]LogSlate: Window 'Save Content' being destroyed
+[2025.04.14-14.59.43:960][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-14.59.43:987][ 97]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster] ([2] browsable assets)...
+[2025.04.14-14.59.43:987][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster]
+[2025.04.14-14.59.43:989][ 97]LogSavePackage: Moving output files for package: /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster
+[2025.04.14-14.59.43:989][ 97]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_ItemsInteractMaster6A24039747344B627B2DBAB9A4E61752.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BP_ItemsInteractMaster.uasset'
+[2025.04.14-14.59.43:992][ 97]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ItemsInteraction/BPI_Interaction] ([2] browsable assets)...
+[2025.04.14-14.59.43:992][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ItemsInteraction/BPI_Interaction]
+[2025.04.14-14.59.43:992][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/ItemsInteraction/BPI_Interaction" FILE="../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BPI_Interaction.uasset" SILENT=true
+[2025.04.14-14.59.43:993][ 97]LogSavePackage: Moving output files for package: /Game/Blueprint/ItemsInteraction/BPI_Interaction
+[2025.04.14-14.59.43:993][ 97]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BPI_InteractionB2462C0C4CB3DF6E9B49EE87613EEBAB.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BPI_Interaction.uasset'
+[2025.04.14-14.59.44:127][ 97]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2025.04.14-14.59.44:127][ 97]SourceControl: Error: Content/Blueprint
+[2025.04.14-14.59.44:127][ 97]SourceControl: Error: hint: Use -f if you really want to add them.
+[2025.04.14-14.59.44:127][ 97]SourceControl: Error: hint: Disable this message with "git config set advice.addIgnoredFile false"
+[2025.04.14-14.59.44:131][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave took 172.312 ms (total: 324.317 ms)
+[2025.04.14-14.59.44:163][ 97]LogContentValidation: Display: Starting to validate 2 assets
+[2025.04.14-14.59.44:163][ 97]LogContentValidation: Enabled validators:
+[2025.04.14-14.59.44:163][ 97]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-14.59.44:163][ 97]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-14.59.44:163][ 97]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-14.59.44:163][ 97]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-14.59.44:163][ 97]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-14.59.44:163][ 97]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-14.59.44:163][ 97]AssetCheck: /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster Validating asset
+[2025.04.14-14.59.44:164][ 97]AssetCheck: /Game/Blueprint/ItemsInteraction/BPI_Interaction Validating asset
+[2025.04.14-14.59.46:844][413]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/ItemsInteraction/BPI_Interaction.BPI_Interaction
+[2025.04.14-14.59.46:844][413]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.04.14-14.59.54:321][690]LogSlate: Window 'BPI_Interaction' being destroyed
+[2025.04.14-14.59.55:035][765]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-14.59.55:061][765]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ItemsInteraction/BPI_Interaction] ([2] browsable assets)...
+[2025.04.14-14.59.55:061][765]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ItemsInteraction/BPI_Interaction]
+[2025.04.14-14.59.55:061][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/ItemsInteraction/BPI_Interaction" FILE="../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BPI_Interaction.uasset" SILENT=true
+[2025.04.14-14.59.55:062][765]LogSavePackage: Moving output files for package: /Game/Blueprint/ItemsInteraction/BPI_Interaction
+[2025.04.14-14.59.55:062][765]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BPI_Interaction54298BC94F7DA89AD4D3269E3B387A08.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BPI_Interaction.uasset'
+[2025.04.14-14.59.55:071][765]LogFileHelpers: InternalPromptForCheckoutAndSave took 36.194 ms (total: 360.512 ms)
+[2025.04.14-14.59.55:098][765]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-14.59.55:098][765]LogContentValidation: Enabled validators:
+[2025.04.14-14.59.55:098][765]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-14.59.55:098][765]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-14.59.55:098][765]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-14.59.55:098][765]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-14.59.55:098][765]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-14.59.55:098][765]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-14.59.55:098][765]AssetCheck: /Game/Blueprint/ItemsInteraction/BPI_Interaction Validating asset
+[2025.04.14-15.00.05:783][803]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.00.05:810][803]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ItemsInteraction/BPI_Interaction] ([2] browsable assets)...
+[2025.04.14-15.00.05:810][803]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ItemsInteraction/BPI_Interaction]
+[2025.04.14-15.00.05:810][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/ItemsInteraction/BPI_Interaction" FILE="../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BPI_Interaction.uasset" SILENT=true
+[2025.04.14-15.00.05:811][803]LogSavePackage: Moving output files for package: /Game/Blueprint/ItemsInteraction/BPI_Interaction
+[2025.04.14-15.00.05:811][803]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BPI_Interaction2E15F43D4ADC22D4C315DB9377AA2E8E.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BPI_Interaction.uasset'
+[2025.04.14-15.00.05:819][803]LogFileHelpers: InternalPromptForCheckoutAndSave took 37.335 ms (total: 397.847 ms)
+[2025.04.14-15.00.05:848][803]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.00.05:848][803]LogContentValidation: Enabled validators:
+[2025.04.14-15.00.05:848][803]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.00.05:848][803]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.00.05:848][803]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.00.05:848][803]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.00.05:848][803]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.00.05:848][803]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.00.05:850][803]AssetCheck: /Game/Blueprint/ItemsInteraction/BPI_Interaction Validating asset
+[2025.04.14-15.00.06:982][935]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.04.14-15.02.17:864][769]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.04.14-15.02.17:871][769]LogContentBrowser: Creating deferred item: NewFolder
+[2025.04.14-15.02.17:883][770]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.04.14-15.02.20:141][ 41]LogContentBrowser: Attempting asset rename: NewFolder -> Items
+[2025.04.14-15.02.20:141][ 41]LogContentBrowser: End creating deferred item NewFolder
+[2025.04.14-15.02.25:238][647]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster.BP_ItemsInteractMaster
+[2025.04.14-15.02.25:238][647]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.04.14-15.03.40:666][164]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.04.14-15.03.40:688][164]LogContentBrowser: Creating deferred item: NewFolder
+[2025.04.14-15.03.40:698][165]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.04.14-15.03.42:225][348]LogContentBrowser: Attempting asset rename: NewFolder -> UI
+[2025.04.14-15.03.42:225][348]LogContentBrowser: End creating deferred item NewFolder
+[2025.04.14-15.03.46:831][816]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1334.078125
+[2025.04.14-15.03.47:831][819]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.14-15.03.47:831][819]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1334.744873, Update Interval: 302.320007
+[2025.04.14-15.04.05:499][872]LogStreaming: Display: FlushAsyncLoading(602): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.14-15.04.05:499][872]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/UI/T_Hint (0xD4B2B4AD1F8C29BF) - The package to load does not exist on disk or in the loader
+[2025.04.14-15.04.05:499][872]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/UI/T_Hint.T_Hint'
+[2025.04.14-15.04.09:415][340]LogStreaming: Display: FlushAsyncLoading(604): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.14-15.04.11:208][553]LogStreaming: Display: FlushAsyncLoading(605): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.14-15.04.47:854][871]LogAssetTools: Warning: Failed to import 'E:\FPSParkour\Content\UI\T_Hint.uasset'. Unknown extension 'uasset'.
+[2025.04.14-15.05.00:002][494]LogAssetTools: Warning: Failed to import 'E:\FPSParkour\Content\UI\T_Hint.uasset'. Unknown extension 'uasset'.
+[2025.04.14-15.05.37:547][632]LogStreaming: Display: FlushAsyncLoading(610): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.14-15.05.37:588][632]LogInterchangeEngine: [Pending] Importing
+[2025.04.14-15.05.37:588][632]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/isaie/Downloads/Screenshot_2025-04-09_140959-removebg-preview.png]
+[2025.04.14-15.05.38:231][634]LogStreaming: Display: FlushAsyncLoading(615): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.14-15.05.38:242][635]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.04.14-15.05.38:907][636]LogInterchangeEngine: Display: Interchange import completed [C:/Users/isaie/Downloads/Screenshot_2025-04-09_140959-removebg-preview.png]
+[2025.04.14-15.05.38:920][636]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.04.14-15.05.38:920][636]LogInterchangeEngine: [Success] Import Done
+[2025.04.14-15.05.40:546][641]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/UI/Screenshot_2025-04-09_140959-removebg-preview.Screenshot_2025-04-09_140959-removebg-preview
+[2025.04.14-15.06.18:008][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.04.14-15.06.19:167][530]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.14-15.06.19:200][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.04.14-15.06.19:221][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.04.14-15.06.19:240][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.04.14-15.06.57:644][886]LogStreaming: Display: FlushAsyncLoading(616): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.14-15.06.57:663][886]LogInterchangeEngine: [Pending] Importing
+[2025.04.14-15.06.57:663][886]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/isaie/Downloads/Screenshot_2025-04-09_140959-removebg-preview (1).png]
+[2025.04.14-15.06.58:326][888]LogStreaming: Display: FlushAsyncLoading(617): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.14-15.06.58:328][889]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.04.14-15.06.58:651][890]LogTexture: Display: Building textures: /Game/UI/Screenshot_2025-04-09_140959-removebg-preview__1_.Screenshot_2025-04-09_140959-removebg-preview__1_ (TFO_AutoDXT, 352x708 x1x1x1) (Required Memory Estimate: 45.524414 MB), EncodeSpeed: Fast
+[2025.04.14-15.06.59:000][890]LogInterchangeEngine: Display: Interchange import completed [C:/Users/isaie/Downloads/Screenshot_2025-04-09_140959-removebg-preview (1).png]
+[2025.04.14-15.06.59:054][890]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.04.14-15.06.59:054][890]LogInterchangeEngine: [Success] Import Done
+[2025.04.14-15.07.02:754][984]LogSlate: Window 'Content Browser' being destroyed
+[2025.04.14-15.07.02:760][984]LogSlate: Window 'Content Browser' being destroyed
+[2025.04.14-15.07.22:578][550]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2025.04.14-15.07.22:587][550]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2025.04.14-15.07.22:593][550]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2025.04.14-15.07.22:611][551]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2025.04.14-15.07.29:041][322]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> W_Interact
+[2025.04.14-15.07.29:136][322]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2025.04.14-15.07.33:799][526]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/W_Interact.W_Interact
+[2025.04.14-15.07.33:799][526]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.04.14-15.07.33:807][526]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.04.14-15.07.33:815][526]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2025.04.14-15.07.33:921][526]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'SequencerGraphEditor'
+[2025.04.14-15.07.33:923][526]LogSlate: The tab "SequencerGraphEditor" attempted to spawn in layout 'WidgetBlueprintEditor_Designer_Layout_v4_8' but failed for some reason. It will not be displayed.
+[2025.04.14-15.07.34:201][526]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2025.04.14-15.07.34:201][526]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.04.14-15.08.20:073][745]LogSlate: Took 0.001120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.04.14-15.09.19:257][851]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1666.508301
+[2025.04.14-15.09.19:315][858]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.14-15.09.19:315][858]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1666.557983, Update Interval: 329.601746
+[2025.04.14-15.09.23:793][348]LogSlate: Window 'Color Picker' being destroyed
+[2025.04.14-15.09.28:564][911]LogSlate: Took 0.005063 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.04.14-15.09.28:717][922]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.04.14-15.09.29:675][ 14]SourceControl: fatal: E:/UE_5.5/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset: 'E:/UE_5.5/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' is outside repository at 'E:/UnrealProjects/FPSParkour'
+[2025.04.14-15.09.29:675][ 14]SourceControl: fatal: E:/UE_5.5/Engine/Content/EngineLightProfiles: 'E:/UE_5.5/Engine/Content/EngineLightProfiles' is outside repository at 'E:/UnrealProjects/FPSParkour'
+[2025.04.14-15.09.29:675][ 14]SourceControl: fatal: E:/UE_5.5/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent: 'E:/UE_5.5/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent' is outside repository at 'E:/UnrealProjects/FPSParkour'
+[2025.04.14-15.09.37:464][919]LogContentBrowser: Attempting asset rename: Screenshot_2025-04-09_140959-removebg-preview__1_ -> T_Hint
+[2025.04.14-15.09.38:049][919]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.09.38:049][919]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/T_Hint] ([1] browsable assets)...
+[2025.04.14-15.09.38:051][919]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/UI/T_Hint.T_Hint]
+[2025.04.14-15.09.38:051][919]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/T_Hint]
+[2025.04.14-15.09.38:051][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/T_Hint" FILE="../../../../UnrealProjects/FPSParkour/Content/UI/T_Hint.uasset" SILENT=true
+[2025.04.14-15.09.38:055][919]LogSavePackage: Moving output files for package: /Game/UI/T_Hint
+[2025.04.14-15.09.38:055][919]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/T_HintCF377939420E8E2A4668EFB27A86871B.tmp' to '../../../../UnrealProjects/FPSParkour/Content/UI/T_Hint.uasset'
+[2025.04.14-15.09.38:182][919]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2025.04.14-15.09.38:182][919]SourceControl: Error: Content/UI
+[2025.04.14-15.09.38:182][919]SourceControl: Error: hint: Use -f if you really want to add them.
+[2025.04.14-15.09.38:182][919]SourceControl: Error: hint: Disable this message with "git config set advice.addIgnoredFile false"
+[2025.04.14-15.09.38:186][919]LogFileHelpers: InternalPromptForCheckoutAndSave took 137.431 ms (total: 535.278 ms)
+[2025.04.14-15.09.38:335][919]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.04.14-15.09.38:353][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.04.14-15.09.38:368][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.04.14-15.09.38:401][919]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.09.38:401][919]LogContentValidation: Enabled validators:
+[2025.04.14-15.09.38:401][919]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.09.38:401][919]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.09.38:401][919]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.09.38:401][919]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.09.38:401][919]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.09.38:401][919]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.09.38:401][919]AssetCheck: /Game/UI/T_Hint Validating asset
+[2025.04.14-15.09.41:835][313]SourceControl: fatal: E:/UE_5.5/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset: 'E:/UE_5.5/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' is outside repository at 'E:/UnrealProjects/FPSParkour'
+[2025.04.14-15.09.41:835][313]SourceControl: fatal: E:/UE_5.5/Engine/Content/EngineLightProfiles: 'E:/UE_5.5/Engine/Content/EngineLightProfiles' is outside repository at 'E:/UnrealProjects/FPSParkour'
+[2025.04.14-15.09.41:835][313]SourceControl: fatal: E:/UE_5.5/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent: 'E:/UE_5.5/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent' is outside repository at 'E:/UnrealProjects/FPSParkour'
+[2025.04.14-15.10.44:760][795]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:012][943]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:037][946]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:062][949]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:087][952]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:137][958]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:154][960]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:213][967]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:220][968]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:229][969]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:304][978]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:313][979]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:321][980]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:338][982]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:347][983]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:388][988]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:395][989]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:447][995]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:455][996]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:463][997]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:471][998]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:480][999]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:502][  0]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:545][  5]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:554][  6]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:562][  7]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:630][ 15]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:690][ 17]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:702][ 18]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:710][ 19]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:718][ 20]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:727][ 21]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:752][ 24]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:760][ 25]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:777][ 27]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:794][ 29]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:827][ 33]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:836][ 34]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:922][ 42]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:933][ 43]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:957][ 46]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:974][ 48]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.46:991][ 50]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:008][ 52]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:016][ 53]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:024][ 54]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:033][ 55]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:099][ 62]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:146][ 68]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:205][ 75]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:214][ 76]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:223][ 77]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:231][ 78]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:238][ 79]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:247][ 80]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:256][ 81]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:264][ 82]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:273][ 83]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:290][ 85]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:298][ 86]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:373][ 95]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:448][104]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:475][107]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:483][108]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:490][109]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:499][110]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:508][111]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:534][114]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:542][115]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:549][116]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:575][119]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:583][120]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:625][125]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:667][130]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:676][131]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:684][132]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:725][137]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:734][138]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:742][139]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:776][143]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:784][144]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:792][145]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:801][146]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:818][148]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:868][154]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:902][158]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:910][159]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:951][164]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:960][165]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:968][166]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.47:977][167]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:035][174]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:044][175]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:053][176]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:061][177]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:068][178]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:136][186]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:161][189]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:186][192]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:211][195]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:220][196]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:228][197]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:254][200]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:261][201]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:295][205]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:304][206]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:312][207]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:321][208]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:363][213]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:396][217]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:430][221]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:472][226]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:505][230]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:514][231]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:547][235]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:564][237]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:572][238]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:580][239]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:589][240]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:597][241]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:639][246]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:647][247]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:656][248]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:664][249]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:673][250]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.48:683][251]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.49:014][252]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.49:348][253]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.49:680][254]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:203][279]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:221][281]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:228][282]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:287][289]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:295][290]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:346][296]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:354][297]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:363][298]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:380][300]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:413][304]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:421][305]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:430][306]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:439][307]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:464][310]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:489][313]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:522][317]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:530][318]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:607][327]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:614][328]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:639][331]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:665][334]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:674][335]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:682][336]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:691][337]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:724][341]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:733][342]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:741][343]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:766][346]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:782][348]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:867][358]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:875][359]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:925][365]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:933][366]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:941][367]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:950][368]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:967][370]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:975][371]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:984][372]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.51:992][373]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:000][374]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:009][375]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:128][389]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:136][390]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:145][391]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:153][392]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:187][396]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:204][398]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:212][399]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:220][400]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:254][404]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:261][405]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:271][406]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:279][407]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:337][414]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:346][415]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:370][418]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:405][422]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:413][423]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:438][426]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:455][428]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:463][429]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:472][430]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:497][433]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:522][436]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:530][437]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:547][439]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:597][445]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:605][446]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:681][455]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:697][457]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:705][458]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:715][459]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:723][460]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:732][461]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:773][466]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:781][467]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:789][468]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:806][470]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:823][472]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:832][473]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:890][480]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:923][484]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:941][486]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:948][487]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:957][488]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:982][491]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.52:998][493]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:007][494]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:015][495]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:024][496]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:065][501]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:073][502]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:148][511]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:157][512]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:165][513]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:182][515]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:199][517]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:216][519]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:224][520]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:232][521]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:299][529]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:306][530]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:316][531]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:324][532]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:366][537]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:383][539]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:408][542]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:417][543]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:424][544]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:433][545]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:440][546]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:450][547]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:457][548]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:466][549]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:475][550]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.10.53:483][551]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.11.05:631][815]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.11.07:898][ 87]LogEditorTransaction: Undo Paste clipboard contents
+[2025.04.14-15.11.14:103][458]SourceControl: Error: fatal: Invalid path 'E:/UE_5.5/Engine/Content/UMG': No such file or directory
+[2025.04.14-15.11.15:715][636]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.11.15:741][636]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/W_Interact] ([2] browsable assets)...
+[2025.04.14-15.11.15:744][636]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/W_Interact.W_Interact]
+[2025.04.14-15.11.15:744][636]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/W_Interact]
+[2025.04.14-15.11.15:744][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/W_Interact" FILE="../../../../UnrealProjects/FPSParkour/Content/UI/W_Interact.uasset" SILENT=true
+[2025.04.14-15.11.15:746][636]LogSavePackage: Moving output files for package: /Game/UI/W_Interact
+[2025.04.14-15.11.15:746][636]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/W_InteractF0540E90404DA075C73173B05D1E77CF.tmp' to '../../../../UnrealProjects/FPSParkour/Content/UI/W_Interact.uasset'
+[2025.04.14-15.11.15:874][636]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2025.04.14-15.11.15:874][636]SourceControl: Error: Content/UI
+[2025.04.14-15.11.15:874][636]SourceControl: Error: hint: Use -f if you really want to add them.
+[2025.04.14-15.11.15:874][636]SourceControl: Error: hint: Disable this message with "git config set advice.addIgnoredFile false"
+[2025.04.14-15.11.15:877][636]LogFileHelpers: InternalPromptForCheckoutAndSave took 161.433 ms (total: 696.712 ms)
+[2025.04.14-15.11.15:904][636]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.11.15:904][636]LogContentValidation: Enabled validators:
+[2025.04.14-15.11.15:904][636]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.11.15:904][636]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.11.15:904][636]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.11.15:904][636]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.11.15:904][636]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.11.15:904][636]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.11.15:904][636]AssetCheck: /Game/UI/W_Interact Validating asset
+[2025.04.14-15.11.20:984][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.04.14-15.11.31:331][ 16]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.04.14-15.11.31:339][ 16]LogContentBrowser: Creating deferred item: NewFolder
+[2025.04.14-15.11.31:347][ 17]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.04.14-15.11.34:856][438]LogContentBrowser: Attempting asset rename: NewFolder -> Interact
+[2025.04.14-15.11.34:856][438]LogContentBrowser: End creating deferred item NewFolder
+[2025.04.14-15.11.38:834][815]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.11.38:834][815]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/W_Interact] ([2] browsable assets)...
+[2025.04.14-15.11.38:837][815]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/W_Interact.W_Interact]
+[2025.04.14-15.11.38:837][815]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/W_Interact]
+[2025.04.14-15.11.38:837][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/W_Interact" FILE="../../../../UnrealProjects/FPSParkour/Content/UI/W_Interact.uasset" SILENT=true
+[2025.04.14-15.11.38:839][815]LogSavePackage: Moving output files for package: /Game/UI/W_Interact
+[2025.04.14-15.11.38:840][815]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/W_Interact588674034BA470A4F283D79C0D96F4EF.tmp' to '../../../../UnrealProjects/FPSParkour/Content/UI/W_Interact.uasset'
+[2025.04.14-15.11.38:841][815]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Interact/T_Hint] ([1] browsable assets)...
+[2025.04.14-15.11.38:841][815]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Interact/T_Hint]
+[2025.04.14-15.11.38:841][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Interact/T_Hint" FILE="../../../../UnrealProjects/FPSParkour/Content/UI/Interact/T_Hint.uasset" SILENT=true
+[2025.04.14-15.11.38:843][815]LogSavePackage: Moving output files for package: /Game/UI/Interact/T_Hint
+[2025.04.14-15.11.38:843][815]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/T_Hint7BD527514C351B4A5879AFAE66C1834E.tmp' to '../../../../UnrealProjects/FPSParkour/Content/UI/Interact/T_Hint.uasset'
+[2025.04.14-15.11.38:965][815]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2025.04.14-15.11.38:965][815]SourceControl: Error: Content/UI
+[2025.04.14-15.11.38:965][815]SourceControl: Error: hint: Use -f if you really want to add them.
+[2025.04.14-15.11.38:965][815]SourceControl: Error: hint: Disable this message with "git config set advice.addIgnoredFile false"
+[2025.04.14-15.11.38:969][815]LogFileHelpers: InternalPromptForCheckoutAndSave took 135.744 ms (total: 832.456 ms)
+[2025.04.14-15.11.39:190][815]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.04.14-15.11.39:211][815]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.04.14-15.11.39:230][815]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.04.14-15.11.39:251][815]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.04.14-15.11.39:251][815]LogContentValidation: Display: Starting to validate 2 assets
+[2025.04.14-15.11.39:251][815]LogContentValidation: Enabled validators:
+[2025.04.14-15.11.39:251][815]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.11.39:251][815]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.11.39:251][815]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.11.39:251][815]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.11.39:251][815]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.11.39:251][815]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.11.39:251][815]AssetCheck: /Game/UI/W_Interact Validating asset
+[2025.04.14-15.11.39:251][815]AssetCheck: /Game/UI/Interact/T_Hint Validating asset
+[2025.04.14-15.11.43:167][183]LogMetaData: Removing '/Game/UI/Interact/W_Interact.SKEL_W_Interact_C' ref from Metadata '/Game/UI/W_Interact.PackageMetaData'
+[2025.04.14-15.11.43:167][183]LogMetaData: Removing '/Game/UI/Interact/W_Interact.W_Interact_C' ref from Metadata '/Game/UI/W_Interact.PackageMetaData'
+[2025.04.14-15.11.43:167][183]LogMetaData: Removing '/Game/UI/Interact/W_Interact.W_Interact:EventGraph.K2Node_Event_0' ref from Metadata '/Game/UI/W_Interact.PackageMetaData'
+[2025.04.14-15.11.43:167][183]LogMetaData: Removing '/Game/UI/Interact/W_Interact.W_Interact:EventGraph.K2Node_Event_1' ref from Metadata '/Game/UI/W_Interact.PackageMetaData'
+[2025.04.14-15.11.43:167][183]LogMetaData: Removing '/Game/UI/Interact/W_Interact.W_Interact:EventGraph.K2Node_Event_2' ref from Metadata '/Game/UI/W_Interact.PackageMetaData'
+[2025.04.14-15.11.43:167][183]LogMetaData: Removing '/Game/UI/Interact/W_Interact.SKEL_W_Interact_C:Tick' ref from Metadata '/Game/UI/W_Interact.PackageMetaData'
+[2025.04.14-15.11.43:167][183]LogMetaData: Removing '/Game/UI/Interact/W_Interact.SKEL_W_Interact_C:Construct' ref from Metadata '/Game/UI/W_Interact.PackageMetaData'
+[2025.04.14-15.11.43:167][183]LogMetaData: Removing '/Game/UI/Interact/W_Interact.SKEL_W_Interact_C:PreConstruct' ref from Metadata '/Game/UI/W_Interact.PackageMetaData'
+[2025.04.14-15.11.43:175][183]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.11.43:175][183]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/Interact/W_Interact] ([2] browsable assets)...
+[2025.04.14-15.11.43:175][183]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Interact/W_Interact]
+[2025.04.14-15.11.43:175][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Interact/W_Interact" FILE="../../../../UnrealProjects/FPSParkour/Content/UI/Interact/W_Interact.uasset" SILENT=true
+[2025.04.14-15.11.43:178][183]LogSavePackage: Moving output files for package: /Game/UI/Interact/W_Interact
+[2025.04.14-15.11.43:178][183]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/W_InteractB61FA56847833B1799439CB7B07320D8.tmp' to '../../../../UnrealProjects/FPSParkour/Content/UI/Interact/W_Interact.uasset'
+[2025.04.14-15.11.43:307][183]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2025.04.14-15.11.43:307][183]SourceControl: Error: Content/UI
+[2025.04.14-15.11.43:307][183]SourceControl: Error: hint: Use -f if you really want to add them.
+[2025.04.14-15.11.43:307][183]SourceControl: Error: hint: Disable this message with "git config set advice.addIgnoredFile false"
+[2025.04.14-15.11.43:312][183]LogFileHelpers: InternalPromptForCheckoutAndSave took 137.480 ms (total: 969.937 ms)
+[2025.04.14-15.11.43:522][183]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.04.14-15.11.43:544][183]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.04.14-15.11.43:564][183]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.04.14-15.11.43:582][183]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.04.14-15.11.43:582][183]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.11.43:582][183]LogContentValidation: Enabled validators:
+[2025.04.14-15.11.43:582][183]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.11.43:582][183]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.11.43:582][183]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.11.43:582][183]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.11.43:582][183]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.11.43:582][183]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.11.43:582][183]AssetCheck: /Game/UI/Interact/W_Interact Validating asset
+[2025.04.14-15.11.45:770][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.04.14-15.11.49:235][827]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.11.49:235][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.11.49:271][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.04.14-15.11.49:635][868]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.11.49:635][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.11.49:700][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.04.14-15.11.49:965][897]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.04.14-15.11.49:965][897]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.11.49:965][897]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.11.50:009][897]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.04.14-15.11.50:888][999]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.11.50:888][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.11.50:893][999]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.11.50:893][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.11.50:937][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.04.14-15.11.57:680][772]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster.BP_ItemsInteractMaster
+[2025.04.14-15.11.57:681][772]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.04.14-15.12.02:420][ 26]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.12.02:420][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.12.02:435][ 26]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster.BP_ItemsInteractMaster
+[2025.04.14-15.12.02:435][ 26]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.04.14-15.12.02:740][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.04.14-15.12.13:654][993]LogStreaming: Display: FlushAsyncLoading(618): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.14-15.12.13:654][993]LogProperty: Warning: ClassProperty /Script/UMG.WidgetComponent:WidgetClass: unresolved reference to '"/Script/UMG.WidgetBlueprintGeneratedClass'/Game/UI/W_Interact.W_Interact_C'"'
+[2025.04.14-15.12.13:654][993]LogProperty: Warning: ClassProperty /Script/UMG.WidgetComponent:WidgetClass: unresolved reference to '"/Script/UMG.WidgetBlueprintGeneratedClass'/Game/UI/W_Interact.W_Interact_C'"'
+[2025.04.14-15.12.13:658][993]LogProperty: Warning: ClassProperty /Script/UMG.WidgetComponent:WidgetClass: unresolved reference to '"/Script/UMG.WidgetBlueprintGeneratedClass'/Game/UI/W_Interact.W_Interact_C'"'
+[2025.04.14-15.12.19:430][334]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.12.19:457][334]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster] ([2] browsable assets)...
+[2025.04.14-15.12.19:457][334]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster]
+[2025.04.14-15.12.19:459][334]LogSavePackage: Moving output files for package: /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster
+[2025.04.14-15.12.19:459][334]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_ItemsInteractMasterF469F81B41B84F6D3B776DA396BCC7F7.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BP_ItemsInteractMaster.uasset'
+[2025.04.14-15.12.19:467][334]LogFileHelpers: InternalPromptForCheckoutAndSave took 36.354 ms (total: 1.00 sec)
+[2025.04.14-15.12.19:494][334]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.12.19:494][334]LogContentValidation: Enabled validators:
+[2025.04.14-15.12.19:494][334]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.12.19:494][334]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.12.19:494][334]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.12.19:494][334]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.12.19:494][334]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.12.19:494][334]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.12.19:494][334]AssetCheck: /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster Validating asset
+[2025.04.14-15.12.58:745][266]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.12.58:770][266]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster] ([2] browsable assets)...
+[2025.04.14-15.12.58:770][266]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster]
+[2025.04.14-15.12.58:771][266]LogSavePackage: Moving output files for package: /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster
+[2025.04.14-15.12.58:773][266]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_ItemsInteractMaster3CBD6E7A4962F0D64DC2F59E4992846D.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BP_ItemsInteractMaster.uasset'
+[2025.04.14-15.12.58:778][266]LogFileHelpers: InternalPromptForCheckoutAndSave took 34.103 ms (total: 1.04 sec)
+[2025.04.14-15.12.58:803][266]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.12.58:803][266]LogContentValidation: Enabled validators:
+[2025.04.14-15.12.58:803][266]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.12.58:803][266]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.12.58:803][266]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.12.58:803][266]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.12.58:803][266]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.12.58:803][266]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.12.58:803][266]AssetCheck: /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster Validating asset
+[2025.04.14-15.13.09:571][994]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.13.09:596][994]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster] ([2] browsable assets)...
+[2025.04.14-15.13.09:596][994]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster]
+[2025.04.14-15.13.09:599][994]LogSavePackage: Moving output files for package: /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster
+[2025.04.14-15.13.09:599][994]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_ItemsInteractMaster0F029D1946A47512B614CD873BC03C8E.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BP_ItemsInteractMaster.uasset'
+[2025.04.14-15.13.09:606][994]LogFileHelpers: InternalPromptForCheckoutAndSave took 34.348 ms (total: 1.07 sec)
+[2025.04.14-15.13.09:630][994]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.13.09:630][994]LogContentValidation: Enabled validators:
+[2025.04.14-15.13.09:630][994]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.13.09:630][994]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.13.09:630][994]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.13.09:630][994]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.13.09:630][994]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.13.09:630][994]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.13.09:630][994]AssetCheck: /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster Validating asset
+[2025.04.14-15.13.10:307][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.13.10:336][ 63]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster] ([2] browsable assets)...
+[2025.04.14-15.13.10:336][ 63]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster]
+[2025.04.14-15.13.10:340][ 63]LogSavePackage: Moving output files for package: /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster
+[2025.04.14-15.13.10:340][ 63]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_ItemsInteractMaster7D44BE3D4887EDE55D4A1BB80ADE2BDF.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BP_ItemsInteractMaster.uasset'
+[2025.04.14-15.13.10:346][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave took 39.356 ms (total: 1.11 sec)
+[2025.04.14-15.13.10:373][ 63]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.13.10:373][ 63]LogContentValidation: Enabled validators:
+[2025.04.14-15.13.10:373][ 63]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.13.10:373][ 63]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.13.10:373][ 63]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.13.10:373][ 63]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.13.10:373][ 63]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.13.10:373][ 63]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.13.10:373][ 63]AssetCheck: /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster Validating asset
+[2025.04.14-15.13.10:855][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.04.14-15.13.20:195][669]LogEditorTransaction: Undo Attach Component
+[2025.04.14-15.13.23:506][ 22]LogEditorTransaction: Undo Attach Component
+[2025.04.14-15.13.29:250][683]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.13.29:278][683]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster] ([2] browsable assets)...
+[2025.04.14-15.13.29:278][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster]
+[2025.04.14-15.13.29:280][683]LogSavePackage: Moving output files for package: /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster
+[2025.04.14-15.13.29:280][683]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_ItemsInteractMaster82A836D0475F3A5DF69BDDB3F009BFDB.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BP_ItemsInteractMaster.uasset'
+[2025.04.14-15.13.29:287][683]LogFileHelpers: InternalPromptForCheckoutAndSave took 37.470 ms (total: 1.15 sec)
+[2025.04.14-15.13.29:316][683]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.13.29:316][683]LogContentValidation: Enabled validators:
+[2025.04.14-15.13.29:316][683]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.13.29:316][683]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.13.29:316][683]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.13.29:316][683]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.13.29:316][683]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.13.29:316][683]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.13.29:316][683]AssetCheck: /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster Validating asset
+[2025.04.14-15.14.01:493][457]LogStreaming: Display: FlushAsyncLoading(622): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.14-15.14.13:196][811]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.14.13:222][811]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster] ([2] browsable assets)...
+[2025.04.14-15.14.13:222][811]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster]
+[2025.04.14-15.14.13:226][811]LogSavePackage: Moving output files for package: /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster
+[2025.04.14-15.14.13:226][811]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_ItemsInteractMaster65CE11D2463FDDAFC4CAA1B98C0DFA48.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BP_ItemsInteractMaster.uasset'
+[2025.04.14-15.14.13:232][811]LogFileHelpers: InternalPromptForCheckoutAndSave took 35.897 ms (total: 1.18 sec)
+[2025.04.14-15.14.13:260][811]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.14.13:260][811]LogContentValidation: Enabled validators:
+[2025.04.14-15.14.13:260][811]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.14.13:260][811]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.14.13:260][811]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.14.13:260][811]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.14.13:260][811]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.14.13:260][811]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.14.13:260][811]AssetCheck: /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster Validating asset
+[2025.04.14-15.14.13:939][887]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.04.14-15.14.29:070][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.04.14-15.15.01:775][287]LogContentBrowser: Deferred new asset file creation: BP_InventoryManager_Child
+[2025.04.14-15.15.01:782][287]LogContentBrowser: Creating deferred item: BP_InventoryManager_Child
+[2025.04.14-15.15.01:792][288]LogContentBrowser: Renaming the item being created (Deferred Item: BP_InventoryManager_Child).
+[2025.04.14-15.15.06:662][871]LogContentBrowser: Attempting asset rename: BP_InventoryManager_Child -> BP_Key
+[2025.04.14-15.15.06:750][871]LogContentBrowser: End creating deferred item BP_InventoryManager_Child
+[2025.04.14-15.15.10:010][168]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.BP_Key:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprint/Inventory/BP_Key.PackageMetaData'
+[2025.04.14-15.15.10:010][168]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.SKEL_BP_Key_C:UserConstructionScript' ref from Metadata '/Game/Blueprint/Inventory/BP_Key.PackageMetaData'
+[2025.04.14-15.15.10:010][168]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.SKEL_BP_Key_C' ref from Metadata '/Game/Blueprint/Inventory/BP_Key.PackageMetaData'
+[2025.04.14-15.15.10:010][168]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.BP_Key_C' ref from Metadata '/Game/Blueprint/Inventory/BP_Key.PackageMetaData'
+[2025.04.14-15.15.10:010][168]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.BP_Key:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprint/Inventory/BP_Key.PackageMetaData'
+[2025.04.14-15.15.10:010][168]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.BP_Key:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprint/Inventory/BP_Key.PackageMetaData'
+[2025.04.14-15.15.10:010][168]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.BP_Key:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprint/Inventory/BP_Key.PackageMetaData'
+[2025.04.14-15.15.10:010][168]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.BP_Key:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprint/Inventory/BP_Key.PackageMetaData'
+[2025.04.14-15.15.10:011][168]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.15.10:011][168]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/Items/BP_Key] ([2] browsable assets)...
+[2025.04.14-15.15.10:011][168]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Items/BP_Key]
+[2025.04.14-15.15.10:011][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Items/BP_Key" FILE="../../../../UnrealProjects/FPSParkour/Content/Blueprint/Items/BP_Key.uasset" SILENT=true
+[2025.04.14-15.15.10:014][168]LogSavePackage: Moving output files for package: /Game/Blueprint/Items/BP_Key
+[2025.04.14-15.15.10:014][168]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_Key2F27CD2E43405B7D29044286BF05A669.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/Items/BP_Key.uasset'
+[2025.04.14-15.15.10:139][168]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2025.04.14-15.15.10:139][168]SourceControl: Error: Content/Blueprint
+[2025.04.14-15.15.10:139][168]SourceControl: Error: hint: Use -f if you really want to add them.
+[2025.04.14-15.15.10:139][168]SourceControl: Error: hint: Disable this message with "git config set advice.addIgnoredFile false"
+[2025.04.14-15.15.10:143][168]LogFileHelpers: InternalPromptForCheckoutAndSave took 131.599 ms (total: 1.31 sec)
+[2025.04.14-15.15.10:265][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.04.14-15.15.10:284][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.04.14-15.15.10:302][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.04.14-15.15.10:318][168]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.04.14-15.15.10:318][168]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.15.10:318][168]LogContentValidation: Enabled validators:
+[2025.04.14-15.15.10:318][168]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.15.10:318][168]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.15.10:318][168]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.15.10:318][168]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.15.10:318][168]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.15.10:318][168]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.15.10:318][168]AssetCheck: /Game/Blueprint/Items/BP_Key Validating asset
+[2025.04.14-15.15.12:344][398]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/Items/BP_Key.BP_Key_C
+[2025.04.14-15.15.12:344][398]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/Items/BP_Key.BP_Key_C
+[2025.04.14-15.15.12:345][398]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/Items/BP_Key.BP_Key as actor: BP_Key_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Key_C_0
+[2025.04.14-15.15.12:345][398]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/Items/BP_Key.BP_Key as actor: BP_Key_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Key_C_0
+[2025.04.14-15.15.12:880][451]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.04.14-15.15.12:881][451]LogEditorActor: Deleted 0 Actors (0.019 secs)
+[2025.04.14-15.15.12:889][451]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/Items/BP_Key.BP_Key_C
+[2025.04.14-15.15.12:889][451]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/Items/BP_Key.BP_Key_C
+[2025.04.14-15.15.12:894][451]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/Items/BP_Key.BP_Key as actor: BP_Key_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Key_C_UAID_7C10C94532FBC95E02_1752917135
+[2025.04.14-15.15.12:895][451]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/Items/BP_Key.BP_Key as actor: BP_Key_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Key_C_UAID_7C10C94532FBC95E02_1752917135
+[2025.04.14-15.15.15:015][668]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.04.14-15.15.17:247][886]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.14-15.15.17:254][886]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.14-15.15.17:254][886]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.04.14-15.15.17:256][886]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2.698 ms
+[2025.04.14-15.15.17:257][886]LogPlayLevel: [PlayLevel] Compiling BP_ItemsInteractMaster before play...
+[2025.04.14-15.15.17:298][886]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.04.14-15.15.17:300][886]LogPlayLevel: PlayLevel: Blueprint regeneration took 43 ms (1 blueprints)
+[2025.04.14-15.15.17:300][886]LogPlayLevel: Display: Creating online subsystem for client :Context_10
+[2025.04.14-15.15.17:304][886]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2025.04.14-15.15.17:338][887]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.04.14-15.15.17:344][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006382s)
+[2025.04.14-15.15.17:345][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006427s)
+[2025.04.14-15.15.17:360][887]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.04.14-15.15.17:363][887]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.04.14-15.15.17:365][887]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.14-15.15.17:365][887]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.14-15.15.17:365][887]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.14-15.15.17:365][887]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.14-15.15.17:366][887]LogWorldPartition: Display: WorldPartition initialize took 1.800 ms (total: 583.131 ms)
+[2025.04.14-15.15.17:366][887]LogPlayLevel: PIE: World Init took: (0.003570s)
+[2025.04.14-15.15.17:368][887]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.04.14-15.15.17:368][887]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.14-15.15.17:368][887]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.14-15.15.17:368][887]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.14-15.15.17:368][887]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.14-15.15.17:368][887]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.14-15.15.17:368][887]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.14-15.15.17:368][887]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.14-15.15.17:368][887]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.14-15.15.17:368][887]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.14-15.15.17:368][887]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.14-15.15.17:368][887]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.14-15.15.17:369][887]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.14-15.15.17:391][887]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2025.04.14-15.15.17:392][887]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.14-15.15.17:392][887]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.14-15.15.17:392][887]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.14-15.15.17:393][887]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.04.14-15.15.17:393][887]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=2
+[2025.04.14-15.15.17:395][887]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.04.14-15.15.17:395][887]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.04.14-15.15.17:395][887]LogInit: FAudioDevice initialized with ID 2.
+[2025.04.14-15.15.17:395][887]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonMap'.
+[2025.04.14-15.15.17:395][887]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.04.14-15.15.17:401][887]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.14-15.15.17:403][887]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.04.14-11.15.17
+[2025.04.14-15.15.17:404][887]LogWorld: Bringing up level for play took: 0.002269
+[2025.04.14-15.15.17:423][887]PIE: Server logged in
+[2025.04.14-15.15.17:424][887]PIE: Play in editor total start time 0.173 seconds.
+[2025.04.14-15.15.17:572][890]LogPSOHitching: Encountered 150 PSO creation hitches so far (72 graphics, 78 compute). 0 of them were precached.
+[2025.04.14-15.15.20:128][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.14-15.15.20:128][186]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.04.14-15.15.20:128][186]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.15.20:129][186]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.15.20:129][186]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.04.14-15.15.20:134][186]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.14-15.15.20:138][186]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.15.20:156][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.14-15.15.20:157][186]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.04.14-15.15.20:157][186]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.04.14-15.15.20:159][186]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.04.14-15.15.20:166][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.04.14-15.15.20:253][187]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2025.04.14-15.15.23:959][572]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Items/BP_Key.BP_Key
+[2025.04.14-15.15.23:959][572]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.04.14-15.15.26:097][717]LogSlate: Window 'BP_Key' being destroyed
+[2025.04.14-15.15.27:206][841]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.15.27:233][841]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/Items/BP_Key] ([2] browsable assets)...
+[2025.04.14-15.15.27:233][841]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Items/BP_Key]
+[2025.04.14-15.15.27:233][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Items/BP_Key" FILE="../../../../UnrealProjects/FPSParkour/Content/Blueprint/Items/BP_Key.uasset" SILENT=true
+[2025.04.14-15.15.27:236][841]LogSavePackage: Moving output files for package: /Game/Blueprint/Items/BP_Key
+[2025.04.14-15.15.27:236][841]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_Key346D61BB40D5F1BE9A27C8B7259694FC.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/Items/BP_Key.uasset'
+[2025.04.14-15.15.27:242][841]LogFileHelpers: InternalPromptForCheckoutAndSave took 36.172 ms (total: 1.35 sec)
+[2025.04.14-15.15.27:272][841]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.15.27:272][841]LogContentValidation: Enabled validators:
+[2025.04.14-15.15.27:272][841]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.15.27:272][841]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.15.27:272][841]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.15.27:272][841]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.15.27:272][841]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.15.27:272][841]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.15.27:272][841]AssetCheck: /Game/Blueprint/Items/BP_Key Validating asset
+[2025.04.14-15.15.29:529][111]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2036.785645
+[2025.04.14-15.15.29:595][119]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.14-15.15.29:595][119]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2036.843262, Update Interval: 342.003845
+[2025.04.14-15.15.36:616][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.04.14-15.15.57:068][200]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.04.14-15.15.59:063][200]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.14-15.15.59:234][200]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.15.59:234][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.15.59:253][200]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprint/Items/BP_Key.BP_Key
+	Asset Type: Blueprint
+[2025.04.14-15.15.59:503][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.04.14-15.15.59:717][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.04.14-15.15.59:734][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.04.14-15.15.59:747][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.04.14-15.15.59:770][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.04.14-15.16.06:019][924]LogContentBrowser: Deferred new asset file creation: BP_InventoryManager_Child
+[2025.04.14-15.16.06:026][924]LogContentBrowser: Creating deferred item: BP_InventoryManager_Child
+[2025.04.14-15.16.06:036][925]LogContentBrowser: Renaming the item being created (Deferred Item: BP_InventoryManager_Child).
+[2025.04.14-15.16.07:636][118]LogContentBrowser: Attempting asset rename: BP_InventoryManager_Child -> BP_InventoryManager_Child
+[2025.04.14-15.16.07:727][118]LogContentBrowser: End creating deferred item BP_InventoryManager_Child
+[2025.04.14-15.16.09:408][316]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Inventory/BP_InventoryManager_Child.BP_InventoryManager_Child
+[2025.04.14-15.16.09:410][316]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.04.14-15.16.12:128][545]LogSlate: Window 'BP_InventoryManager_Child' being destroyed
+[2025.04.14-15.16.12:132][545]LogSlate: Window 'BP_InventoryManager_Child' being destroyed
+[2025.04.14-15.16.12:134][545]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.16.12:134][545]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.16.12:190][545]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.04.14-15.16.13:782][730]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.04.14-15.16.14:976][730]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.14-15.16.15:004][730]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.04.14-15.16.15:023][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.04.14-15.16.15:040][730]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.04.14-15.16.15:753][814]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Inventory/BP_InventoryManager.BP_InventoryManager
+[2025.04.14-15.16.15:753][814]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.04.14-15.16.28:723][196]LogSlate: Window 'Message' being destroyed
+[2025.04.14-15.16.28:730][196]Message dialog closed, result: Yes, title: Message, text: Would you like to transfer the interface functions to be part of your blueprint?
+[2025.04.14-15.16.45:113][123]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.16.45:137][123]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/Inventory/BP_InventoryManager] ([2] browsable assets)...
+[2025.04.14-15.16.45:137][123]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Inventory/BP_InventoryManager]
+[2025.04.14-15.16.45:137][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Inventory/BP_InventoryManager" FILE="../../../../UnrealProjects/FPSParkour/Content/Blueprint/Inventory/BP_InventoryManager.uasset" SILENT=true
+[2025.04.14-15.16.45:151][123]LogSavePackage: Moving output files for package: /Game/Blueprint/Inventory/BP_InventoryManager
+[2025.04.14-15.16.45:151][123]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_InventoryManager17BCA5674763C5736EE2D8AB82529309.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/Inventory/BP_InventoryManager.uasset'
+[2025.04.14-15.16.45:158][123]LogFileHelpers: InternalPromptForCheckoutAndSave took 43.963 ms (total: 1.39 sec)
+[2025.04.14-15.16.45:182][123]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.16.45:182][123]LogContentValidation: Enabled validators:
+[2025.04.14-15.16.45:182][123]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.16.45:182][123]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.16.45:182][123]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.16.45:182][123]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.16.45:182][123]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.16.45:182][123]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.16.45:182][123]AssetCheck: /Game/Blueprint/Inventory/BP_InventoryManager Validating asset
+[2025.04.14-15.16.46:265][241]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.16.46:291][241]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster] ([2] browsable assets)...
+[2025.04.14-15.16.46:291][241]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster]
+[2025.04.14-15.16.46:296][241]LogSavePackage: Moving output files for package: /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster
+[2025.04.14-15.16.46:296][241]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_ItemsInteractMasterA6E59EEC434C80512CDD2DA22EDF2745.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BP_ItemsInteractMaster.uasset'
+[2025.04.14-15.16.46:303][241]LogFileHelpers: InternalPromptForCheckoutAndSave took 38.988 ms (total: 1.43 sec)
+[2025.04.14-15.16.46:332][241]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.16.46:332][241]LogContentValidation: Enabled validators:
+[2025.04.14-15.16.46:332][241]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.16.46:332][241]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.16.46:332][241]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.16.46:332][241]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.16.46:332][241]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.16.46:334][241]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.16.46:334][241]AssetCheck: /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster Validating asset
+[2025.04.14-15.16.47:295][350]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.04.14-15.16.52:721][973]LogContentBrowser: Deferred new asset file creation: BP_InventoryManager_Child
+[2025.04.14-15.16.52:728][973]LogContentBrowser: Creating deferred item: BP_InventoryManager_Child
+[2025.04.14-15.16.52:737][974]LogContentBrowser: Renaming the item being created (Deferred Item: BP_InventoryManager_Child).
+[2025.04.14-15.16.53:780][100]LogContentBrowser: Attempting asset rename: BP_InventoryManager_Child -> BP_InventoryManager_Child
+[2025.04.14-15.16.53:869][100]LogContentBrowser: End creating deferred item BP_InventoryManager_Child
+[2025.04.14-15.16.55:128][244]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/Inventory/BP_InventoryManager_Child.BP_InventoryManager_Child_C
+[2025.04.14-15.16.55:128][244]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/Inventory/BP_InventoryManager_Child.BP_InventoryManager_Child_C
+[2025.04.14-15.16.55:129][244]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/Inventory/BP_InventoryManager_Child.BP_InventoryManager_Child as actor: BP_InventoryManager_Child_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_InventoryManager_Child_C_0
+[2025.04.14-15.16.55:129][244]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/Inventory/BP_InventoryManager_Child.BP_InventoryManager_Child as actor: BP_InventoryManager_Child_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_InventoryManager_Child_C_0
+[2025.04.14-15.16.55:709][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.04.14-15.16.55:712][297]LogEditorActor: Deleted 0 Actors (0.021 secs)
+[2025.04.14-15.16.55:719][297]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/Inventory/BP_InventoryManager_Child.BP_InventoryManager_Child_C
+[2025.04.14-15.16.55:719][297]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/Inventory/BP_InventoryManager_Child.BP_InventoryManager_Child_C
+[2025.04.14-15.16.55:722][297]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/Inventory/BP_InventoryManager_Child.BP_InventoryManager_Child as actor: BP_InventoryManager_Child_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_InventoryManager_Child_C_UAID_7C10C94532FBC95E02_1855746136
+[2025.04.14-15.16.55:722][297]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/Inventory/BP_InventoryManager_Child.BP_InventoryManager_Child as actor: BP_InventoryManager_Child_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_InventoryManager_Child_C_UAID_7C10C94532FBC95E02_1855746136
+[2025.04.14-15.16.58:044][557]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Inventory/BP_InventoryManager_Child.BP_InventoryManager_Child
+[2025.04.14-15.16.58:044][557]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.04.14-15.17.12:613][283]LogSlate: Window 'BP_InventoryManager_Child' being destroyed
+[2025.04.14-15.17.12:619][283]LogSlate: Window 'BP_InventoryManager_Child' being destroyed
+[2025.04.14-15.17.12:621][283]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.17.12:621][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.17.12:674][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.04.14-15.17.17:051][699]LogSlate: Window 'Message' being destroyed
+[2025.04.14-15.17.17:056][699]Message dialog closed, result: Yes, title: Message, text: Would you like to transfer the interface functions to be part of your blueprint?
+[2025.04.14-15.17.25:070][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.04.14-15.17.25:890][635]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.14-15.17.25:964][635]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprint/Inventory/BP_InventoryManager_Child.BP_InventoryManager_Child
+	Asset Type: Blueprint
+[2025.04.14-15.17.26:183][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.04.14-15.17.26:233][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.04.14-15.17.26:252][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.04.14-15.17.26:268][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.04.14-15.17.42:593][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.04.14-15.17.42:593][539]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.17.42:593][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.17.42:632][539]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.04.14-15.17.53:390][805]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.04.14-15.18.00:304][601]LogContentBrowser: Deferred new asset file creation: BP_ItemsInteractMaster_Child
+[2025.04.14-15.18.00:321][601]LogContentBrowser: Creating deferred item: BP_ItemsInteractMaster_Child
+[2025.04.14-15.18.00:330][602]LogContentBrowser: Renaming the item being created (Deferred Item: BP_ItemsInteractMaster_Child).
+[2025.04.14-15.18.04:031][ 46]LogContentBrowser: Attempting asset rename: BP_ItemsInteractMaster_Child -> BP_Key
+[2025.04.14-15.18.04:122][ 46]LogContentBrowser: End creating deferred item BP_ItemsInteractMaster_Child
+[2025.04.14-15.18.04:878][132]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/ItemsInteraction/BP_Key.BP_Key
+[2025.04.14-15.18.04:878][132]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.04.14-15.18.07:630][358]LogSlate: Window 'BP_Key' being destroyed
+[2025.04.14-15.18.15:573][799]LogStreaming: Display: FlushAsyncLoading(625): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.14-15.18.15:574][799]LogProperty: Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to '"/Script/Engine.BlueprintGeneratedClass'/Game/Blueprint/BP_MyGameInstance.BP_MyGameInstance_C'"'
+[2025.04.14-15.18.15:574][799]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to '"/Script/Engine.BlueprintGeneratedClass'/Game/Blueprint/BP_MyGameInstance.BP_MyGameInstance_C'",MemberName="PlayerInventory",MemberGuid=96E5F653438E63F09758219EA45F5897)'
+[2025.04.14-15.18.15:574][799]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to '"/Script/Engine.BlueprintGeneratedClass'/Game/Blueprint/BP_MyGameInstance.BP_MyGameInstance_C'",MemberName="PlayerInventory",MemberGuid=96E5F653438E63F09758219EA45F5897)'
+[2025.04.14-15.18.26:984][957]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.18.27:011][957]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ItemsInteraction/BP_Key] ([2] browsable assets)...
+[2025.04.14-15.18.27:011][957]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ItemsInteraction/BP_Key]
+[2025.04.14-15.18.27:011][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/ItemsInteraction/BP_Key" FILE="../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BP_Key.uasset" SILENT=true
+[2025.04.14-15.18.27:014][957]LogSavePackage: Moving output files for package: /Game/Blueprint/ItemsInteraction/BP_Key
+[2025.04.14-15.18.27:014][957]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_KeyB17A72F94C23C1D0817161ACBA3B5994.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BP_Key.uasset'
+[2025.04.14-15.18.27:157][957]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2025.04.14-15.18.27:157][957]SourceControl: Error: Content/Blueprint
+[2025.04.14-15.18.27:157][957]SourceControl: Error: hint: Use -f if you really want to add them.
+[2025.04.14-15.18.27:157][957]SourceControl: Error: hint: Disable this message with "git config set advice.addIgnoredFile false"
+[2025.04.14-15.18.27:160][957]LogFileHelpers: InternalPromptForCheckoutAndSave took 175.833 ms (total: 1.61 sec)
+[2025.04.14-15.18.27:190][957]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.18.27:190][957]LogContentValidation: Enabled validators:
+[2025.04.14-15.18.27:190][957]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.18.27:190][957]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.18.27:190][957]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.18.27:190][957]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.18.27:190][957]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.18.27:190][957]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.18.27:190][957]AssetCheck: /Game/Blueprint/ItemsInteraction/BP_Key Validating asset
+[2025.04.14-15.18.27:749][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.04.14-15.19.15:557][284]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.04.14-15.19.15:562][284]LogContentBrowser: Creating deferred item: NewFolder
+[2025.04.14-15.19.15:570][285]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.04.14-15.19.15:708][300]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2025.04.14-15.19.15:708][300]LogContentBrowser: End creating deferred item NewFolder
+[2025.04.14-15.19.15:746][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.04.14-15.19.15:747][300]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.022
+[2025.04.14-15.19.15:748][300]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/Inventory/BP_InventoryManager] ([2] browsable assets)...
+[2025.04.14-15.19.15:748][300]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Inventory/BP_InventoryManager]
+[2025.04.14-15.19.15:763][300]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint/Inventory/BP_InventoryManager_Auto2
+[2025.04.14-15.19.15:763][300]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_InventoryManager_Auto21470EC404B1E135104C7C8A09CBA25F1.tmp' to '../../../../UnrealProjects/FPSParkour/Saved/Autosaves/Game/Blueprint/Inventory/BP_InventoryManager_Auto2.uasset'
+[2025.04.14-15.19.15:763][300]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster] ([2] browsable assets)...
+[2025.04.14-15.19.15:764][300]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster]
+[2025.04.14-15.19.15:768][300]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster_Auto2
+[2025.04.14-15.19.15:768][300]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_ItemsInteractMaster_Auto2B91F1C744F66608C24D97D97097FBAD9.tmp' to '../../../../UnrealProjects/FPSParkour/Saved/Autosaves/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster_Auto2.uasset'
+[2025.04.14-15.19.15:769][300]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ItemsInteraction/BP_Key] ([2] browsable assets)...
+[2025.04.14-15.19.15:769][300]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ItemsInteraction/BP_Key]
+[2025.04.14-15.19.15:772][300]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint/ItemsInteraction/BP_Key_Auto2
+[2025.04.14-15.19.15:772][300]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_Key_Auto284D24E404CAFDB5847C755B22DBA7E3B.tmp' to '../../../../UnrealProjects/FPSParkour/Saved/Autosaves/Game/Blueprint/ItemsInteraction/BP_Key_Auto2.uasset'
+[2025.04.14-15.19.15:772][300]LogFileHelpers: Auto-saving content packages took 0.025
+[2025.04.14-15.19.22:210][ 68]LogContentBrowser: Attempting asset rename: NewFolder -> GameInstace
+[2025.04.14-15.19.38:581][137]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.04.14-15.19.38:590][137]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.04.14-15.19.38:595][137]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.04.14-15.19.38:611][139]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.04.14-15.19.49:796][480]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_MyGameInstance
+[2025.04.14-15.19.49:888][480]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.04.14-15.19.50:781][585]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/GameInstace/BP_MyGameInstance.BP_MyGameInstance
+[2025.04.14-15.19.50:781][585]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.04.14-15.20.14:147][624]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.20.14:176][624]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/GameInstace/BP_MyGameInstance] ([2] browsable assets)...
+[2025.04.14-15.20.14:176][624]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/GameInstace/BP_MyGameInstance]
+[2025.04.14-15.20.14:176][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/GameInstace/BP_MyGameInstance" FILE="../../../../UnrealProjects/FPSParkour/Content/Blueprint/GameInstace/BP_MyGameInstance.uasset" SILENT=true
+[2025.04.14-15.20.14:177][624]LogSavePackage: Moving output files for package: /Game/Blueprint/GameInstace/BP_MyGameInstance
+[2025.04.14-15.20.14:177][624]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_MyGameInstance300EBBFE4B33358CD72663BAC7471F28.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/GameInstace/BP_MyGameInstance.uasset'
+[2025.04.14-15.20.14:303][624]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2025.04.14-15.20.14:303][624]SourceControl: Error: Content/Blueprint
+[2025.04.14-15.20.14:303][624]SourceControl: Error: hint: Use -f if you really want to add them.
+[2025.04.14-15.20.14:303][624]SourceControl: Error: hint: Disable this message with "git config set advice.addIgnoredFile false"
+[2025.04.14-15.20.14:307][624]LogFileHelpers: InternalPromptForCheckoutAndSave took 159.733 ms (total: 1.77 sec)
+[2025.04.14-15.20.14:338][624]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.20.14:338][624]LogContentValidation: Enabled validators:
+[2025.04.14-15.20.14:338][624]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.20.14:338][624]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.20.14:338][624]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.20.14:338][624]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.20.14:338][624]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.20.14:338][624]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.20.14:338][624]AssetCheck: /Game/Blueprint/GameInstace/BP_MyGameInstance Validating asset
+[2025.04.14-15.20.14:624][653]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.04.14-15.20.22:468][577]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.20.22:494][577]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ItemsInteraction/BP_Key] ([2] browsable assets)...
+[2025.04.14-15.20.22:494][577]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ItemsInteraction/BP_Key]
+[2025.04.14-15.20.22:494][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/ItemsInteraction/BP_Key" FILE="../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BP_Key.uasset" SILENT=true
+[2025.04.14-15.20.22:497][577]LogSavePackage: Moving output files for package: /Game/Blueprint/ItemsInteraction/BP_Key
+[2025.04.14-15.20.22:498][577]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_Key0E47B8C1455AEF0A04EC8EA07FE37F87.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BP_Key.uasset'
+[2025.04.14-15.20.22:504][577]LogFileHelpers: InternalPromptForCheckoutAndSave took 36.746 ms (total: 1.81 sec)
+[2025.04.14-15.20.22:530][577]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.20.22:530][577]LogContentValidation: Enabled validators:
+[2025.04.14-15.20.22:530][577]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.20.22:530][577]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.20.22:530][577]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.20.22:530][577]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.20.22:530][577]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.20.22:530][577]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.20.22:530][577]AssetCheck: /Game/Blueprint/ItemsInteraction/BP_Key Validating asset
+[2025.04.14-15.20.26:621][  6]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.20.26:648][  6]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ItemsInteraction/BP_Key] ([2] browsable assets)...
+[2025.04.14-15.20.26:648][  6]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ItemsInteraction/BP_Key]
+[2025.04.14-15.20.26:648][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/ItemsInteraction/BP_Key" FILE="../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BP_Key.uasset" SILENT=true
+[2025.04.14-15.20.26:651][  6]LogSavePackage: Moving output files for package: /Game/Blueprint/ItemsInteraction/BP_Key
+[2025.04.14-15.20.26:652][  6]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_KeyE388C74C4CEBA95933A8E783E8A119CA.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BP_Key.uasset'
+[2025.04.14-15.20.26:659][  6]LogFileHelpers: InternalPromptForCheckoutAndSave took 38.241 ms (total: 1.84 sec)
+[2025.04.14-15.20.26:688][  6]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.20.26:688][  6]LogContentValidation: Enabled validators:
+[2025.04.14-15.20.26:688][  6]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.20.26:688][  6]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.20.26:688][  6]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.20.26:688][  6]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.20.26:688][  6]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.20.26:688][  6]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.20.26:688][  6]AssetCheck: /Game/Blueprint/ItemsInteraction/BP_Key Validating asset
+[2025.04.14-15.20.29:026][280]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.04.14-15.20.32:044][627]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2025.04.14-15.20.32:067][628]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2025.04.14-15.20.32:132][632]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_20
+[2025.04.14-15.20.32:400][661]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2025.04.14-15.20.32:400][661]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
+[2025.04.14-15.20.56:049][646]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.20.56:075][646]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.04.14-15.20.56:080][646]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2025.04.14-15.20.56:080][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.04.14-15.20.56:080][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter" FILE="../../../../UnrealProjects/FPSParkour/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2025.04.14-15.20.56:139][646]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.04.14-15.20.56:139][646]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_FirstPersonCharacterA23194E54DDA3D93B2C55BBCD2A08EA8.tmp' to '../../../../UnrealProjects/FPSParkour/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.04.14-15.20.56:147][646]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.833 ms (total: 1.94 sec)
+[2025.04.14-15.20.56:176][646]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.20.56:176][646]LogContentValidation: Enabled validators:
+[2025.04.14-15.20.56:176][646]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.20.56:176][646]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.20.56:176][646]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.20.56:176][646]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.20.56:176][646]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.20.56:176][646]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.20.56:176][646]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2025.04.14-15.21.05:982][193]LogStreaming: Display: FlushAsyncLoading(638): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.14-15.21.05:982][193]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to '"/Script/Engine.BlueprintGeneratedClass'/Game/Blueprint/ItemInteraction/BPI_Interaction.BPI_Interaction_C'",MemberName="Interact",MemberGuid=9B31FB92439FF0C2D43E23ADCE403767)'
+[2025.04.14-15.21.37:727][881]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.04.14-15.21.49:554][170]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.BP_Key:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprint/ItemsInteraction/BP_Key.PackageMetaData'
+[2025.04.14-15.21.49:554][170]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.SKEL_BP_Key_C' ref from Metadata '/Game/Blueprint/ItemsInteraction/BP_Key.PackageMetaData'
+[2025.04.14-15.21.49:554][170]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.BP_Key_C' ref from Metadata '/Game/Blueprint/ItemsInteraction/BP_Key.PackageMetaData'
+[2025.04.14-15.21.49:554][170]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.BP_Key:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprint/ItemsInteraction/BP_Key.PackageMetaData'
+[2025.04.14-15.21.49:554][170]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.BP_Key:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprint/ItemsInteraction/BP_Key.PackageMetaData'
+[2025.04.14-15.21.49:554][170]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.BP_Key:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprint/ItemsInteraction/BP_Key.PackageMetaData'
+[2025.04.14-15.21.49:554][170]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.BP_Key:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprint/ItemsInteraction/BP_Key.PackageMetaData'
+[2025.04.14-15.21.49:554][170]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.BP_Key:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprint/ItemsInteraction/BP_Key.PackageMetaData'
+[2025.04.14-15.21.49:554][170]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.BP_Key:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprint/ItemsInteraction/BP_Key.PackageMetaData'
+[2025.04.14-15.21.49:554][170]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.SKEL_BP_Key_C:UserConstructionScript' ref from Metadata '/Game/Blueprint/ItemsInteraction/BP_Key.PackageMetaData'
+[2025.04.14-15.21.49:554][170]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.SKEL_BP_Key_C:ReceiveTick' ref from Metadata '/Game/Blueprint/ItemsInteraction/BP_Key.PackageMetaData'
+[2025.04.14-15.21.49:554][170]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.SKEL_BP_Key_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprint/ItemsInteraction/BP_Key.PackageMetaData'
+[2025.04.14-15.21.49:554][170]LogMetaData: Removing '/Game/Blueprint/Items/BP_Key.SKEL_BP_Key_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprint/ItemsInteraction/BP_Key.PackageMetaData'
+[2025.04.14-15.21.49:566][170]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.21.49:566][170]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/Items/BP_Key] ([2] browsable assets)...
+[2025.04.14-15.21.49:566][170]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Items/BP_Key]
+[2025.04.14-15.21.49:566][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Items/BP_Key" FILE="../../../../UnrealProjects/FPSParkour/Content/Blueprint/Items/BP_Key.uasset" SILENT=true
+[2025.04.14-15.21.49:572][170]LogSavePackage: Moving output files for package: /Game/Blueprint/Items/BP_Key
+[2025.04.14-15.21.49:572][170]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_Key59F2E7B54AA04E86E1EB1DBAA46AFE71.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/Items/BP_Key.uasset'
+[2025.04.14-15.21.49:704][170]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2025.04.14-15.21.49:704][170]SourceControl: Error: Content/Blueprint
+[2025.04.14-15.21.49:704][170]SourceControl: Error: hint: Use -f if you really want to add them.
+[2025.04.14-15.21.49:704][170]SourceControl: Error: hint: Disable this message with "git config set advice.addIgnoredFile false"
+[2025.04.14-15.21.49:707][170]LogFileHelpers: InternalPromptForCheckoutAndSave took 141.437 ms (total: 2.08 sec)
+[2025.04.14-15.21.49:921][170]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.04.14-15.21.49:944][170]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.04.14-15.21.49:959][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.04.14-15.21.49:976][170]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.04.14-15.21.49:976][170]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.21.49:976][170]LogContentValidation: Enabled validators:
+[2025.04.14-15.21.49:976][170]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.21.49:976][170]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.21.49:976][170]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.21.49:976][170]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.21.49:976][170]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.21.49:976][170]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.21.49:976][170]AssetCheck: /Game/Blueprint/Items/BP_Key Validating asset
+[2025.04.14-15.21.51:123][297]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/Items/BP_Key.BP_Key_C
+[2025.04.14-15.21.51:123][297]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/Items/BP_Key.BP_Key_C
+[2025.04.14-15.21.51:125][297]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/Items/BP_Key.BP_Key as actor: BP_Key_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Key_C_0
+[2025.04.14-15.21.51:126][297]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/Items/BP_Key.BP_Key as actor: BP_Key_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Key_C_0
+[2025.04.14-15.21.51:488][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.04.14-15.21.51:490][325]LogEditorActor: Deleted 0 Actors (0.021 secs)
+[2025.04.14-15.21.51:497][325]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/Items/BP_Key.BP_Key_C
+[2025.04.14-15.21.51:497][325]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/Items/BP_Key.BP_Key_C
+[2025.04.14-15.21.51:500][325]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/Items/BP_Key.BP_Key as actor: BP_Key_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Key_C_UAID_7C10C94532FBCA5E02_1077782313
+[2025.04.14-15.21.51:502][325]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/Items/BP_Key.BP_Key as actor: BP_Key_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Key_C_UAID_7C10C94532FBCA5E02_1077782313
+[2025.04.14-15.21.54:003][606]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.14-15.21.54:007][606]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.14-15.21.54:007][606]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.04.14-15.21.54:009][606]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2.002 ms (total: 4.700 ms)
+[2025.04.14-15.21.54:014][606]LogPlayLevel: [PlayLevel] Compiling BP_FirstPersonCharacter before play...
+[2025.04.14-15.21.54:092][606]LogPlayLevel: [PlayLevel] Compiling BP_InventoryManager before play...
+[2025.04.14-15.21.54:097][606]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2025.04.14-15.21.54:297][606]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.200 s
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: === Handled ensure: ===
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: 
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: Ensure condition failed: ChildClass->ClassDefaultObject == nullptr  [File:D:\build\++UE5\Sync\Engine\Source\Editor\Kismet\Private\BlueprintCompilationManager.cpp] [Line: 1400] 
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: 
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: Stack: 
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: [Callstack] 0x00007fff114a9d00 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: [Callstack] 0x00007fff114238c8 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: [Callstack] 0x00007fff14593712 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: [Callstack] 0x00007fff147a4af7 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: [Callstack] 0x00007fff147aedd1 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: [Callstack] 0x00007fff147b4823 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: [Callstack] 0x00007fff147b3dee UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: [Callstack] 0x00007fff140244b2 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: [Callstack] 0x00007fff14cb42c6 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: [Callstack] 0x00007ff6bc246b47 UnrealEditor.exe!UnknownFunction []
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: [Callstack] 0x00007ff6bc2657ac UnrealEditor.exe!UnknownFunction []
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: [Callstack] 0x00007ff6bc26589a UnrealEditor.exe!UnknownFunction []
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: [Callstack] 0x00007ff6bc269114 UnrealEditor.exe!UnknownFunction []
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: [Callstack] 0x00007ff6bc27bd04 UnrealEditor.exe!UnknownFunction []
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: [Callstack] 0x00007ff6bc27f0ba UnrealEditor.exe!UnknownFunction []
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: [Callstack] 0x00007fffec30e8d7 KERNEL32.DLL!UnknownFunction []
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: [Callstack] 0x00007fffed6714fc ntdll.dll!UnknownFunction []
+[2025.04.14-15.21.54:297][606]LogOutputDevice: Error: 
+[2025.04.14-15.21.54:303][606]LogStats:                SubmitErrorReport -  0.000 s
+[2025.04.14-15.22.19:224][606]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [25 Seconds] waiting for h/w. InstanceID=1
+[2025.04.14-15.22.19:225][606]LogStats:                    SendNewReport - 24.922 s
+[2025.04.14-15.22.19:225][606]LogStats:             FDebug::EnsureFailed - 25.127 s
+[2025.04.14-15.22.19:269][606]LogPlayLevel: [PlayLevel] Compiling BP_ItemsInteractMaster before play...
+[2025.04.14-15.22.19:269][606]LogPlayLevel: [PlayLevel]   Compiling BP_Key as a dependent...
+[2025.04.14-15.22.19:326][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.04.14-15.22.19:329][606]LogPlayLevel: PlayLevel: Blueprint regeneration took 25316 ms (4 blueprints)
+[2025.04.14-15.22.19:329][606]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.04.14-15.22.19:329][606]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=20636
+[2025.04.14-15.22.20:330][606]LogAudioMixer: Warning: Timed out waiting to flush the source manager command queue (1).
+[2025.04.14-15.22.21:330][606]LogAudioMixer: Warning: Timed out waiting to flush the source manager command queue (2).
+[2025.04.14-15.22.21:330][606]LogPlayLevel: Display: Creating online subsystem for client :Context_21
+[2025.04.14-15.22.21:331][606]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2025.04.14-15.22.21:334][606]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.04.14-15.22.21:336][606]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=8, SampleRate=96000, DeviceID={0.0.0.00000000}.{b8054e12-5c33-4e39-8f3c-aa31e76ed714}, Name=SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=13.23
+[2025.04.14-15.22.21:336][606]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=1
+[2025.04.14-15.22.21:337][606]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.04.14-15.22.21:367][606]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2448.629150
+[2025.04.14-15.22.21:368][607]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.04.14-15.22.21:373][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004897s)
+[2025.04.14-15.22.21:373][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004943s)
+[2025.04.14-15.22.21:389][607]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.04.14-15.22.21:391][607]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.04.14-15.22.21:393][607]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.14-15.22.21:393][607]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.14-15.22.21:393][607]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.14-15.22.21:393][607]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.14-15.22.21:394][607]LogWorldPartition: Display: WorldPartition initialize took 1.590 ms (total: 584.722 ms)
+[2025.04.14-15.22.21:394][607]LogPlayLevel: PIE: World Init took: (0.003239s)
+[2025.04.14-15.22.21:396][607]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.04.14-15.22.21:396][607]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.14-15.22.21:396][607]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.14-15.22.21:396][607]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.14-15.22.21:396][607]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.14-15.22.21:396][607]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.14-15.22.21:396][607]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.14-15.22.21:396][607]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.14-15.22.21:396][607]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.14-15.22.21:396][607]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.14-15.22.21:396][607]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.14-15.22.21:396][607]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.14-15.22.21:397][607]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.14-15.22.21:415][607]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2025.04.14-15.22.21:417][607]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.14-15.22.21:417][607]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.14-15.22.21:417][607]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.14-15.22.21:417][607]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.04.14-15.22.21:417][607]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=3
+[2025.04.14-15.22.21:420][607]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.04.14-15.22.21:420][607]LogInit: FAudioDevice initialized with ID 3.
+[2025.04.14-15.22.21:420][607]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonMap'.
+[2025.04.14-15.22.21:420][607]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.04.14-15.22.21:420][607]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.04.14-15.22.21:423][607]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.14-15.22.21:425][607]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.04.14-11.22.21
+[2025.04.14-15.22.21:425][607]LogWorld: Bringing up level for play took: 0.002041
+[2025.04.14-15.22.21:428][607]PIE: Server logged in
+[2025.04.14-15.22.21:429][607]PIE: Play in editor total start time 27.422 seconds.
+[2025.04.14-15.22.21:578][609]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.14-15.22.21:578][610]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2448.818115, Update Interval: 324.128540
+[2025.04.14-15.22.29:506][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.14-15.22.29:506][547]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.04.14-15.22.29:506][547]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.22.29:507][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.22.29:507][547]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.04.14-15.22.29:511][547]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.14-15.22.29:515][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.22.29:529][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.14-15.22.29:529][547]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.04.14-15.22.29:529][547]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.04.14-15.22.29:531][547]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.04.14-15.22.29:538][547]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.04.14-15.22.29:602][548]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.04.14-15.22.38:288][493]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_22
+[2025.04.14-15.22.39:975][671]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.04.14-15.22.41:675][863]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.14-15.22.41:680][863]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.14-15.22.41:680][863]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.04.14-15.22.41:680][863]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.944 ms (total: 6.645 ms)
+[2025.04.14-15.22.41:682][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.14-15.22.41:716][863]LogPlayLevel: Display: Creating online subsystem for client :Context_23
+[2025.04.14-15.22.41:719][863]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2025.04.14-15.22.41:753][864]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.04.14-15.22.41:757][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004749s)
+[2025.04.14-15.22.41:757][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004806s)
+[2025.04.14-15.22.41:776][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.04.14-15.22.41:777][864]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.04.14-15.22.41:778][864]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.14-15.22.41:778][864]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.14-15.22.41:778][864]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.14-15.22.41:778][864]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.14-15.22.41:780][864]LogWorldPartition: Display: WorldPartition initialize took 1.742 ms (total: 586.464 ms)
+[2025.04.14-15.22.41:780][864]LogPlayLevel: PIE: World Init took: (0.003190s)
+[2025.04.14-15.22.41:782][864]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.04.14-15.22.41:782][864]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.14-15.22.41:782][864]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.14-15.22.41:782][864]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.14-15.22.41:782][864]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.14-15.22.41:782][864]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.14-15.22.41:782][864]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.14-15.22.41:782][864]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.14-15.22.41:782][864]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.14-15.22.41:782][864]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.14-15.22.41:782][864]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.14-15.22.41:782][864]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.14-15.22.41:784][864]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.14-15.22.41:802][864]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2025.04.14-15.22.41:802][864]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.14-15.22.41:802][864]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.14-15.22.41:802][864]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.14-15.22.41:804][864]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.04.14-15.22.41:804][864]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=4
+[2025.04.14-15.22.41:805][864]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.04.14-15.22.41:805][864]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.04.14-15.22.41:805][864]LogInit: FAudioDevice initialized with ID 4.
+[2025.04.14-15.22.41:805][864]LogAudio: Display: Audio Device (ID: 4) registered with world 'FirstPersonMap'.
+[2025.04.14-15.22.41:807][864]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.04.14-15.22.41:808][864]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.14-15.22.41:810][864]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.04.14-11.22.41
+[2025.04.14-15.22.41:811][864]LogWorld: Bringing up level for play took: 0.001871
+[2025.04.14-15.22.41:814][864]PIE: Server logged in
+[2025.04.14-15.22.41:815][864]PIE: Play in editor total start time 0.135 seconds.
+[2025.04.14-15.22.44:661][199]LogBlueprintUserMessages: [BP_Key_C_UAID_7C10C94532FBCA5E02_1077782313] Hello
+[2025.04.14-15.22.45:319][278]LogBlueprintUserMessages: [BP_Key_C_UAID_7C10C94532FBCA5E02_1077782313] Hello
+[2025.04.14-15.22.46:112][373]LogBlueprintUserMessages: [BP_Key_C_UAID_7C10C94532FBCA5E02_1077782313] Hello
+[2025.04.14-15.22.46:404][408]LogBlueprintUserMessages: [BP_Key_C_UAID_7C10C94532FBCA5E02_1077782313] Hello
+[2025.04.14-15.22.46:979][477]LogBlueprintUserMessages: [BP_Key_C_UAID_7C10C94532FBCA5E02_1077782313] Hello
+[2025.04.14-15.22.47:212][505]LogBlueprintUserMessages: [BP_Key_C_UAID_7C10C94532FBCA5E02_1077782313] Hello
+[2025.04.14-15.22.47:555][546]LogBlueprintUserMessages: [BP_Key_C_UAID_7C10C94532FBCA5E02_1077782313] Hello
+[2025.04.14-15.22.47:762][571]LogBlueprintUserMessages: [BP_Key_C_UAID_7C10C94532FBCA5E02_1077782313] Hello
+[2025.04.14-15.22.48:430][651]LogBlueprintUserMessages: [BP_Key_C_UAID_7C10C94532FBCA5E02_1077782313] Hello
+[2025.04.14-15.22.48:596][671]LogBlueprintUserMessages: [BP_Key_C_UAID_7C10C94532FBCA5E02_1077782313] Hello
+[2025.04.14-15.22.48:946][713]LogBlueprintUserMessages: [BP_Key_C_UAID_7C10C94532FBCA5E02_1077782313] Hello
+[2025.04.14-15.22.49:129][735]LogBlueprintUserMessages: [BP_Key_C_UAID_7C10C94532FBCA5E02_1077782313] Hello
+[2025.04.14-15.22.49:680][801]LogBlueprintUserMessages: [BP_Key_C_UAID_7C10C94532FBCA5E02_1077782313] Hello
+[2025.04.14-15.22.49:855][822]LogBlueprintUserMessages: [BP_Key_C_UAID_7C10C94532FBCA5E02_1077782313] Hello
+[2025.04.14-15.22.50:186][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.14-15.22.50:186][857]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.04.14-15.22.50:186][857]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.22.50:187][857]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.22.50:187][857]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.04.14-15.22.50:192][857]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.14-15.22.50:195][857]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.22.50:214][857]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.14-15.22.50:215][857]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.04.14-15.22.50:215][857]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.04.14-15.22.50:217][857]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.04.14-15.22.50:221][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.14-15.22.50:224][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.04.14-15.22.50:287][858]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2025.04.14-15.22.51:173][927]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.22.51:220][927]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.04.14-15.22.51:236][927]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.04.14-15.22.51:250][927]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.04.14-15.22.51:252][927]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/QQ/QLJ4WM73ZCLWH8P98WSM4J
+[2025.04.14-15.22.51:253][927]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/QLJ4WM73ZCLWH8P98WSM4JBE05236C46081B7E53E87086E72788C2.tmp' to '../../../../UnrealProjects/FPSParkour/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/QQ/QLJ4WM73ZCLWH8P98WSM4J.uasset'
+[2025.04.14-15.22.51:396][927]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2025.04.14-15.22.51:396][927]SourceControl: Error: Content/__ExternalActors__
+[2025.04.14-15.22.51:396][927]SourceControl: Error: hint: Use -f if you really want to add them.
+[2025.04.14-15.22.51:396][927]SourceControl: Error: hint: Disable this message with "git config set advice.addIgnoredFile false"
+[2025.04.14-15.22.51:401][927]LogFileHelpers: InternalPromptForCheckoutAndSave took 227.352 ms (total: 2.31 sec)
+[2025.04.14-15.22.51:433][927]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.22.51:433][927]LogContentValidation: Enabled validators:
+[2025.04.14-15.22.51:433][927]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.22.51:433][927]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.22.51:433][927]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.22.51:433][927]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.22.51:433][927]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.22.51:433][927]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.22.51:433][927]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.04.14-15.24.17:487][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.04.14-15.24.19:656][416]LogSlate: Window 'Save Content' being destroyed
+[2025.04.14-15.24.19:913][416]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.24.19:941][416]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.04.14-15.24.19:954][416]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2025.04.14-15.24.19:954][416]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.04.14-15.24.19:954][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter" FILE="../../../../UnrealProjects/FPSParkour/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2025.04.14-15.24.20:015][416]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.04.14-15.24.20:015][416]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_FirstPersonCharacter1CF0719D45FC9CE13632099D8D6D9825.tmp' to '../../../../UnrealProjects/FPSParkour/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.04.14-15.24.20:015][416]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/Inventory/BP_InventoryManager] ([2] browsable assets)...
+[2025.04.14-15.24.20:015][416]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Inventory/BP_InventoryManager]
+[2025.04.14-15.24.20:015][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Inventory/BP_InventoryManager" FILE="../../../../UnrealProjects/FPSParkour/Content/Blueprint/Inventory/BP_InventoryManager.uasset" SILENT=true
+[2025.04.14-15.24.20:030][416]LogSavePackage: Moving output files for package: /Game/Blueprint/Inventory/BP_InventoryManager
+[2025.04.14-15.24.20:030][416]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_InventoryManager2702FDA7444778A3691E96BD02A18CDE.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/Inventory/BP_InventoryManager.uasset'
+[2025.04.14-15.24.20:030][416]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster] ([2] browsable assets)...
+[2025.04.14-15.24.20:030][416]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster]
+[2025.04.14-15.24.20:036][416]LogSavePackage: Moving output files for package: /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster
+[2025.04.14-15.24.20:036][416]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_ItemsInteractMaster91D31CEE47AC184A30987C9AC6CA79F9.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BP_ItemsInteractMaster.uasset'
+[2025.04.14-15.24.20:037][416]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/Items/BP_Key] ([2] browsable assets)...
+[2025.04.14-15.24.20:043][416]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/Items/BP_Key.BP_Key]
+[2025.04.14-15.24.20:043][416]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Items/BP_Key]
+[2025.04.14-15.24.20:044][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Items/BP_Key" FILE="../../../../UnrealProjects/FPSParkour/Content/Blueprint/Items/BP_Key.uasset" SILENT=true
+[2025.04.14-15.24.20:048][416]LogSavePackage: Moving output files for package: /Game/Blueprint/Items/BP_Key
+[2025.04.14-15.24.20:048][416]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_KeyF6E3D0E34C775D6D02CD1C98CD4CB2AB.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/Items/BP_Key.uasset'
+[2025.04.14-15.24.20:055][416]LogFileHelpers: InternalPromptForCheckoutAndSave took 143.161 ms (total: 2.45 sec)
+[2025.04.14-15.24.20:085][416]LogContentValidation: Display: Starting to validate 4 assets
+[2025.04.14-15.24.20:085][416]LogContentValidation: Enabled validators:
+[2025.04.14-15.24.20:085][416]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.24.20:085][416]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.24.20:085][416]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.24.20:085][416]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.24.20:085][416]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.24.20:085][416]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.24.20:086][416]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2025.04.14-15.24.20:086][416]AssetCheck: /Game/Blueprint/Inventory/BP_InventoryManager Validating asset
+[2025.04.14-15.24.20:086][416]AssetCheck: /Game/Blueprint/ItemsInteraction/BP_ItemsInteractMaster Validating asset
+[2025.04.14-15.24.20:086][416]AssetCheck: /Game/Blueprint/Items/BP_Key Validating asset
