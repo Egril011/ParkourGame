@@ -3339,3 +3339,905 @@ Script Stack (0 frames) :
 [2025.04.14-15.35.22:992][337]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3230.265137
 [2025.04.14-15.35.23:991][340]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.04.14-15.35.23:991][341]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3230.931885, Update Interval: 334.582367
+[2025.04.14-15.35.56:971][507]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.04.14-15.35.56:979][507]LogContentBrowser: Creating deferred item: NewFolder
+[2025.04.14-15.35.56:989][508]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.04.14-15.35.59:684][831]LogContentBrowser: Attempting asset rename: NewFolder -> Level
+[2025.04.14-15.35.59:684][831]LogContentBrowser: End creating deferred item NewFolder
+[2025.04.14-15.36.43:829][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.04.14-15.36.43:831][245]LogStreaming: Display: FlushAsyncLoading(653): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.14-15.36.43:833][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Blueprint/ItemInteraction/BP_ItemInteractMaster (0x27212C3E5A801F20)
+[2025.04.14-15.36.43:833][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Blueprint/Items/BP_PowerCell (0xD903BBB498D54D81)
+[2025.04.14-15.36.43:833][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Blueprint/RespawnAndDeadZone/BP_DeadZone (0xB5882DEA1C02B8A6)
+[2025.04.14-15.36.43:833][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Blueprint/RespawnAndDeadZone/BP_PlayerRespawn (0xC3CD99691AC69134)
+[2025.04.14-15.36.43:833][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Blueprint/Tutorial/BP_Door (0xA460394D60198AAB)
+[2025.04.14-15.36.43:833][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Blueprint/Tutorial/BP_TutorialCrouchText (0xC67C8A4FE0290B84)
+[2025.04.14-15.36.43:833][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Blueprint/Tutorial/BP_TutorialDashText (0x3AF210E26A668AB)
+[2025.04.14-15.36.43:833][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Blueprint/Tutorial/BP_TutorialGrappleText (0xAC510D6CDDA71A87)
+[2025.04.14-15.36.43:833][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Asset/Sci-Door/Material (0x43D4FA064DA191AF)
+[2025.04.14-15.36.43:833][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Levels/_GENERATED/isaie/Boolean_1D0AC200 (0xD3823EC80CD1D0A5)
+[2025.04.14-15.36.43:834][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Levels/_GENERATED/isaie/Boolean_2E370509 (0xE2DECF2070ADC29F)
+[2025.04.14-15.36.43:834][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Levels/_GENERATED/isaie/Boolean_B10F32BB (0x67A79A5EDA861512)
+[2025.04.14-15.36.43:834][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Linear_Stair_Brush_StaticMesh1 (0x3C7C686FEC5EE4C5)
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_DeadZone_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_DeadZone_C_1
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_DeadZone_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_DeadZone_C_3
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_PlayerRespawn_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PlayerRespawn_C_3
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_PlayerRespawn_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PlayerRespawn_C_4
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_PlayerRespawn_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PlayerRespawn_C_5
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_TutorialCrouchText_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_TutorialCrouchText_C_1
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_TutorialDashText_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_TutorialDashText_C_1
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_TutorialGrappleText_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_TutorialGrappleText_C_1
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_DeadZone_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_DeadZone_C_1
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_DeadZone_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_DeadZone_C_3
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Door_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_Door_C_1
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_PlayerRespawn_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PlayerRespawn_C_3
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Scene': BP_PlayerRespawn_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PlayerRespawn_C_3
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_PlayerRespawn_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PlayerRespawn_C_4
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Scene': BP_PlayerRespawn_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PlayerRespawn_C_4
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_PlayerRespawn_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PlayerRespawn_C_5
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Scene': BP_PlayerRespawn_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PlayerRespawn_C_5
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_3
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Scene': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_3
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_5
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Scene': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_5
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_TutorialCrouchText_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_TutorialCrouchText_C_1
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_TutorialDashText_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_TutorialDashText_C_1
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_TutorialGrappleText_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_TutorialGrappleText_C_1
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_3
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_5
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh': BP_Door_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_Door_C_1
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_3
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_5
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'UpDown': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_3
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'UpDown': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_5
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Widget': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_3
+[2025.04.14-15.36.43:841][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Widget': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_5
+[2025.04.14-15.36.43:841][245]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_Tutorial
+[2025.04.14-15.36.43:844][245]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/LV_Tutorial.LV_Tutorial
+[2025.04.14-15.36.43:844][245]Cmd: MAP LOAD FILE="../../../../UnrealProjects/FPSParkour/Content/Level/LV_Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.04.14-15.36.43:860][245]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.36.43:860][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.36.43:860][245]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2025.04.14-15.36.43:882][245]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.14-15.36.43:888][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.04.14-15.36.43:890][245]LogWorld: UWorld::CleanupWorld for LV_Tutorial, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.36.43:891][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.36.43:907][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.04.14-15.36.43:954][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.04.14-15.36.43:956][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Blueprint/ItemInteraction/BP_ItemInteractMaster (0x27212C3E5A801F20)
+[2025.04.14-15.36.43:956][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Blueprint/Items/BP_PowerCell (0xD903BBB498D54D81)
+[2025.04.14-15.36.43:956][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Blueprint/RespawnAndDeadZone/BP_DeadZone (0xB5882DEA1C02B8A6)
+[2025.04.14-15.36.43:956][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Blueprint/RespawnAndDeadZone/BP_PlayerRespawn (0xC3CD99691AC69134)
+[2025.04.14-15.36.43:956][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Blueprint/Tutorial/BP_Door (0xA460394D60198AAB)
+[2025.04.14-15.36.43:956][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Blueprint/Tutorial/BP_TutorialCrouchText (0xC67C8A4FE0290B84)
+[2025.04.14-15.36.43:956][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Blueprint/Tutorial/BP_TutorialDashText (0x3AF210E26A668AB)
+[2025.04.14-15.36.43:956][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Blueprint/Tutorial/BP_TutorialGrappleText (0xAC510D6CDDA71A87)
+[2025.04.14-15.36.43:956][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Asset/Sci-Door/Material (0x43D4FA064DA191AF)
+[2025.04.14-15.36.43:956][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Levels/_GENERATED/isaie/Boolean_1D0AC200 (0xD3823EC80CD1D0A5)
+[2025.04.14-15.36.43:956][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Levels/_GENERATED/isaie/Boolean_2E370509 (0xE2DECF2070ADC29F)
+[2025.04.14-15.36.43:956][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Levels/_GENERATED/isaie/Boolean_B10F32BB (0x67A79A5EDA861512)
+[2025.04.14-15.36.43:956][245]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Level/LV_Tutorial (0x32BC66F25F58B637) /Game/Level/LV_Tutorial (0x32BC66F25F58B637) - Skipping non mounted imported package /Game/Linear_Stair_Brush_StaticMesh1 (0x3C7C686FEC5EE4C5)
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_DeadZone_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_DeadZone_C_1
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_DeadZone_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_DeadZone_C_3
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_PlayerRespawn_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PlayerRespawn_C_3
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_PlayerRespawn_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PlayerRespawn_C_4
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_PlayerRespawn_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PlayerRespawn_C_5
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_TutorialCrouchText_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_TutorialCrouchText_C_1
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_TutorialDashText_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_TutorialDashText_C_1
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_TutorialGrappleText_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_TutorialGrappleText_C_1
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_DeadZone_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_DeadZone_C_1
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_DeadZone_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_DeadZone_C_3
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Door_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_Door_C_1
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_PlayerRespawn_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PlayerRespawn_C_3
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Scene': BP_PlayerRespawn_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PlayerRespawn_C_3
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_PlayerRespawn_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PlayerRespawn_C_4
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Scene': BP_PlayerRespawn_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PlayerRespawn_C_4
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_PlayerRespawn_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PlayerRespawn_C_5
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Scene': BP_PlayerRespawn_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PlayerRespawn_C_5
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_3
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Scene': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_3
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_5
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Scene': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_5
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_TutorialCrouchText_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_TutorialCrouchText_C_1
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_TutorialDashText_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_TutorialDashText_C_1
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_TutorialGrappleText_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_TutorialGrappleText_C_1
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_3
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_5
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh': BP_Door_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_Door_C_1
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_3
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_5
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'UpDown': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_3
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'UpDown': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_5
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Widget': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_3
+[2025.04.14-15.36.43:960][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Widget': BP_PowerCell_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_PowerCell_C_5
+[2025.04.14-15.36.43:960][245]LogAudio: Display: Audio Device (ID: 1) registered with world 'LV_Tutorial'.
+[2025.04.14-15.36.43:960][245]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_Tutorial
+[2025.04.14-15.36.43:996][245]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.04.14-15.36.44:061][245]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.04.14-15.36.44:067][245]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.04.14-15.36.44:067][245]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.045ms to complete.
+[2025.04.14-15.36.44:119][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemInteraction/BP_ItemInteractMaster which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:119][245]LoadErrors: Warning: While trying to load package /Game/Level/LV_Tutorial, a dependent package /Game/Blueprint/ItemInteraction/BP_ItemInteractMaster was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Blueprint/ItemInteraction/BP_ItemInteractMaster has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'E:/UnrealProjects/FPSParkour/Content/Blueprint/ItemInteraction/BP_ItemInteractMaster.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.04.14-15.36.44:119][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Blueprint/Items/BP_PowerCell which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:119][245]LoadErrors: Warning: While trying to load package /Game/Level/LV_Tutorial, a dependent package /Game/Blueprint/Items/BP_PowerCell was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Blueprint/Items/BP_PowerCell has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'E:/UnrealProjects/FPSParkour/Content/Blueprint/Items/BP_PowerCell.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.04.14-15.36.44:119][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Blueprint/RespawnAndDeadZone/BP_DeadZone which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:119][245]LoadErrors: Warning: While trying to load package /Game/Level/LV_Tutorial, a dependent package /Game/Blueprint/RespawnAndDeadZone/BP_DeadZone was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Blueprint/RespawnAndDeadZone/BP_DeadZone has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'E:/UnrealProjects/FPSParkour/Content/Blueprint/RespawnAndDeadZone/BP_DeadZone.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.04.14-15.36.44:119][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Blueprint/RespawnAndDeadZone/BP_PlayerRespawn which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:119][245]LoadErrors: Warning: While trying to load package /Game/Level/LV_Tutorial, a dependent package /Game/Blueprint/RespawnAndDeadZone/BP_PlayerRespawn was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Blueprint/RespawnAndDeadZone/BP_PlayerRespawn has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'E:/UnrealProjects/FPSParkour/Content/Blueprint/RespawnAndDeadZone/BP_PlayerRespawn.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.04.14-15.36.44:119][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Blueprint/Tutorial/BP_Door which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:120][245]LoadErrors: Warning: While trying to load package /Game/Level/LV_Tutorial, a dependent package /Game/Blueprint/Tutorial/BP_Door was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Blueprint/Tutorial/BP_Door has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'E:/UnrealProjects/FPSParkour/Content/Blueprint/Tutorial/BP_Door.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.04.14-15.36.44:120][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Blueprint/Tutorial/BP_TutorialCrouchText which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:120][245]LoadErrors: Warning: While trying to load package /Game/Level/LV_Tutorial, a dependent package /Game/Blueprint/Tutorial/BP_TutorialCrouchText was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Blueprint/Tutorial/BP_TutorialCrouchText has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'E:/UnrealProjects/FPSParkour/Content/Blueprint/Tutorial/BP_TutorialCrouchText.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.04.14-15.36.44:120][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Blueprint/Tutorial/BP_TutorialDashText which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:120][245]LoadErrors: Warning: While trying to load package /Game/Level/LV_Tutorial, a dependent package /Game/Blueprint/Tutorial/BP_TutorialDashText was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Blueprint/Tutorial/BP_TutorialDashText has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'E:/UnrealProjects/FPSParkour/Content/Blueprint/Tutorial/BP_TutorialDashText.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.04.14-15.36.44:120][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Blueprint/Tutorial/BP_TutorialGrappleText which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:120][245]LoadErrors: Warning: While trying to load package /Game/Level/LV_Tutorial, a dependent package /Game/Blueprint/Tutorial/BP_TutorialGrappleText was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Blueprint/Tutorial/BP_TutorialGrappleText has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'E:/UnrealProjects/FPSParkour/Content/Blueprint/Tutorial/BP_TutorialGrappleText.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.04.14-15.36.44:120][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Asset/Sci-Door/Material which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:120][245]LoadErrors: Warning: While trying to load package /Game/Level/LV_Tutorial, a dependent package /Game/Asset/Sci-Door/Material was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Asset/Sci-Door/Material has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'E:/UnrealProjects/FPSParkour/Content/Asset/Sci-Door/Material.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.04.14-15.36.44:120][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Levels/_GENERATED/isaie/Boolean_1D0AC200 which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:120][245]LoadErrors: Warning: While trying to load package /Game/Level/LV_Tutorial, a dependent package /Game/Levels/_GENERATED/isaie/Boolean_1D0AC200 was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Levels/_GENERATED/isaie/Boolean_1D0AC200 has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'E:/UnrealProjects/FPSParkour/Content/Levels/_GENERATED/isaie/Boolean_1D0AC200.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.04.14-15.36.44:120][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Levels/_GENERATED/isaie/Boolean_2E370509 which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:120][245]LoadErrors: Warning: While trying to load package /Game/Level/LV_Tutorial, a dependent package /Game/Levels/_GENERATED/isaie/Boolean_2E370509 was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Levels/_GENERATED/isaie/Boolean_2E370509 has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'E:/UnrealProjects/FPSParkour/Content/Levels/_GENERATED/isaie/Boolean_2E370509.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.04.14-15.36.44:120][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Levels/_GENERATED/isaie/Boolean_B10F32BB which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:120][245]LoadErrors: Warning: While trying to load package /Game/Level/LV_Tutorial, a dependent package /Game/Levels/_GENERATED/isaie/Boolean_B10F32BB was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Levels/_GENERATED/isaie/Boolean_B10F32BB has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'E:/UnrealProjects/FPSParkour/Content/Levels/_GENERATED/isaie/Boolean_B10F32BB.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.04.14-15.36.44:120][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Linear_Stair_Brush_StaticMesh1 which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:120][245]LoadErrors: Warning: While trying to load package /Game/Level/LV_Tutorial, a dependent package /Game/Linear_Stair_Brush_StaticMesh1 was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Linear_Stair_Brush_StaticMesh1 has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'E:/UnrealProjects/FPSParkour/Content/Linear_Stair_Brush_StaticMesh1.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.04.14-15.36.44:120][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemInteraction/BP_ItemInteractMaster which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:120][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Blueprint/Items/BP_PowerCell which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:120][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Blueprint/RespawnAndDeadZone/BP_DeadZone which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:121][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Blueprint/RespawnAndDeadZone/BP_PlayerRespawn which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:121][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Blueprint/Tutorial/BP_Door which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:121][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Blueprint/Tutorial/BP_TutorialCrouchText which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:121][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Blueprint/Tutorial/BP_TutorialDashText which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:121][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Blueprint/Tutorial/BP_TutorialGrappleText which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:121][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Asset/Sci-Door/Material which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:121][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Levels/_GENERATED/isaie/Boolean_1D0AC200 which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:121][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Levels/_GENERATED/isaie/Boolean_2E370509 which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:121][245]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Levels/_GENERATED/isaie/Boolean_B10F32BB which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.36.44:121][246]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Linear_Stair_Brush_StaticMesh1 which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.37.02:983][416]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.14-15.37.02:987][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.14-15.37.03:025][416]LogPlayLevel: Display: Creating online subsystem for client :Context_29
+[2025.04.14-15.37.03:028][416]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2025.04.14-15.37.03:056][417]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_LV_Tutorial
+[2025.04.14-15.37.03:061][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003700s)
+[2025.04.14-15.37.03:061][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/LV_Tutorial.LV_Tutorial to /Game/Level/UEDPIE_0_LV_Tutorial.LV_Tutorial (0.003763s)
+[2025.04.14-15.37.03:074][417]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.04.14-15.37.03:076][417]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_Tutorial
+[2025.04.14-15.37.03:077][417]LogPlayLevel: PIE: World Init took: (0.001524s)
+[2025.04.14-15.37.03:078][417]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.04.14-15.37.03:078][417]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.14-15.37.03:078][417]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.14-15.37.03:078][417]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.14-15.37.03:078][417]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.14-15.37.03:078][417]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.14-15.37.03:078][417]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.14-15.37.03:078][417]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.14-15.37.03:078][417]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.14-15.37.03:078][417]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.14-15.37.03:078][417]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.14-15.37.03:078][417]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.14-15.37.03:080][417]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.14-15.37.03:100][417]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2025.04.14-15.37.03:100][417]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.14-15.37.03:100][417]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.14-15.37.03:100][417]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.14-15.37.03:101][417]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.04.14-15.37.03:101][417]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=9
+[2025.04.14-15.37.03:103][417]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.04.14-15.37.03:103][417]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.04.14-15.37.03:103][417]LogInit: FAudioDevice initialized with ID 9.
+[2025.04.14-15.37.03:103][417]LogAudio: Display: Audio Device (ID: 9) registered with world 'LV_Tutorial'.
+[2025.04.14-15.37.03:103][417]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.04.14-15.37.03:106][417]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.14-15.37.03:108][417]LogWorld: Bringing World /Game/Level/UEDPIE_0_LV_Tutorial.LV_Tutorial up for play (max tick rate 0) at 2025.04.14-11.37.03
+[2025.04.14-15.37.03:108][417]LogWorld: Bringing up level for play took: 0.001595
+[2025.04.14-15.37.03:110][417]PIE: Server logged in
+[2025.04.14-15.37.03:111][417]PIE: Play in editor total start time 0.125 seconds.
+[2025.04.14-15.37.30:006][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.14-15.37.30:006][628]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_LV_Tutorial
+[2025.04.14-15.37.30:006][628]LogWorld: UWorld::CleanupWorld for LV_Tutorial, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.37.30:007][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.37.30:011][628]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.14-15.37.30:013][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.37.30:031][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.14-15.37.30:031][628]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.04.14-15.37.30:032][628]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.04.14-15.37.30:033][628]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.04.14-15.37.30:040][628]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.04.14-15.37.30:086][629]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2025.04.14-15.37.32:226][866]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.37.32:251][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/LV_Tutorial" FILE="../../../../UnrealProjects/FPSParkour/Content/Level/LV_Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.04.14-15.37.32:281][866]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.04.14-15.37.32:293][866]LogSavePackage: Moving output files for package: /Game/Level/LV_Tutorial
+[2025.04.14-15.37.32:293][866]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/LV_Tutorial2FBF00AD4666B087E8B197A06DC81F62.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Level/LV_Tutorial.umap'
+[2025.04.14-15.37.32:301][866]LogFileHelpers: Saving map 'LV_Tutorial' took 0.050
+[2025.04.14-15.37.32:317][866]LogFileHelpers: InternalPromptForCheckoutAndSave took 90.767 ms (total: 3.00 sec)
+[2025.04.14-15.37.32:346][866]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.37.32:346][866]LogContentValidation: Enabled validators:
+[2025.04.14-15.37.32:346][866]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.37.32:346][866]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.37.32:346][866]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.37.32:346][866]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.37.32:346][866]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.37.32:346][866]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.37.32:346][866]AssetCheck: /Game/Level/LV_Tutorial Validating asset
+[2025.04.14-15.37.37:205][374]LogSlate: Window 'Message Log' being destroyed
+[2025.04.14-15.37.37:211][374]LogSlate: Window 'Message Log' being destroyed
+[2025.04.14-15.38.12:176][950]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.04.14-15.38.12:183][950]LogContentBrowser: Creating deferred item: NewFolder
+[2025.04.14-15.38.12:192][951]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.04.14-15.38.16:438][460]LogContentBrowser: Attempting asset rename: NewFolder -> HUD
+[2025.04.14-15.38.16:438][460]LogContentBrowser: End creating deferred item NewFolder
+[2025.04.14-15.40.29:622][634]LogStreaming: Display: FlushAsyncLoading(655): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.14-15.40.29:626][634]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/HUD/W_HUD.W_HUD
+[2025.04.14-15.40.29:626][634]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_24
+[2025.04.14-15.40.29:632][634]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2025.04.14-15.41.22:790][337]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.14-15.41.22:798][337]LogPlayLevel: [PlayLevel] Compiling BP_FirstPersonCharacter before play...
+[2025.04.14-15.41.22:928][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.04.14-15.41.22:930][337]LogPlayLevel: PlayLevel: Blueprint regeneration took 134 ms (1 blueprints)
+[2025.04.14-15.41.22:930][337]LogPlayLevel: Display: Creating online subsystem for client :Context_32
+[2025.04.14-15.41.22:931][337]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.04.14-15.41.23:009][338]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_LV_Tutorial
+[2025.04.14-15.41.23:012][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003363s)
+[2025.04.14-15.41.23:012][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/LV_Tutorial.LV_Tutorial to /Game/Level/UEDPIE_0_LV_Tutorial.LV_Tutorial (0.003416s)
+[2025.04.14-15.41.23:029][338]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.04.14-15.41.23:029][338]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_Tutorial
+[2025.04.14-15.41.23:032][338]LogPlayLevel: PIE: World Init took: (0.001688s)
+[2025.04.14-15.41.23:032][338]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.04.14-15.41.23:032][338]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.14-15.41.23:032][338]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.14-15.41.23:032][338]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.14-15.41.23:032][338]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.14-15.41.23:032][338]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.14-15.41.23:032][338]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.14-15.41.23:032][338]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.14-15.41.23:032][338]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.14-15.41.23:032][338]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.14-15.41.23:032][338]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.14-15.41.23:034][338]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.14-15.41.23:036][338]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.14-15.41.23:057][338]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2025.04.14-15.41.23:057][338]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.14-15.41.23:057][338]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.14-15.41.23:057][338]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.14-15.41.23:058][338]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.04.14-15.41.23:058][338]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=10
+[2025.04.14-15.41.23:061][338]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.04.14-15.41.23:061][338]LogInit: FAudioDevice initialized with ID 10.
+[2025.04.14-15.41.23:061][338]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.04.14-15.41.23:061][338]LogAudio: Display: Audio Device (ID: 10) registered with world 'LV_Tutorial'.
+[2025.04.14-15.41.23:061][338]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.04.14-15.41.23:079][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.14-15.41.23:079][338]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.14-15.41.23:082][338]LogWorld: Bringing World /Game/Level/UEDPIE_0_LV_Tutorial.LV_Tutorial up for play (max tick rate 0) at 2025.04.14-11.41.23
+[2025.04.14-15.41.23:082][338]LogWorld: Bringing up level for play took: 0.001823
+[2025.04.14-15.41.23:087][338]PIE: Server logged in
+[2025.04.14-15.41.23:089][338]PIE: Play in editor total start time 0.294 seconds.
+[2025.04.14-15.41.30:459][188]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3597.728760
+[2025.04.14-15.41.30:542][198]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.14-15.41.30:542][198]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3597.802979, Update Interval: 318.247009
+[2025.04.14-15.41.37:976][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.14-15.41.37:976][ 75]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_LV_Tutorial
+[2025.04.14-15.41.37:976][ 75]LogSlate: Window 'FPSParkour Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.04.14-15.41.37:981][ 75]LogWorld: UWorld::CleanupWorld for LV_Tutorial, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.41.37:981][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.41.37:984][ 75]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.14-15.41.37:987][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.41.38:005][ 75]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.04.14-15.41.38:005][ 75]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.04.14-15.41.38:006][ 75]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.04.14-15.41.38:014][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.04.14-15.41.38:053][ 79]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2025.04.14-15.41.38:930][174]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.41.38:952][174]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.04.14-15.41.38:958][174]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2025.04.14-15.41.38:958][174]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.04.14-15.41.38:958][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter" FILE="../../../../UnrealProjects/FPSParkour/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2025.04.14-15.41.39:018][174]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.04.14-15.41.39:018][174]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_FirstPersonCharacterE9165C9943B589CA90B034956DC26261.tmp' to '../../../../UnrealProjects/FPSParkour/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.04.14-15.41.39:027][174]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.147 ms (total: 3.10 sec)
+[2025.04.14-15.41.39:058][174]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.41.39:058][174]LogContentValidation: Enabled validators:
+[2025.04.14-15.41.39:058][174]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.41.39:058][174]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.41.39:058][174]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.41.39:058][174]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.41.39:058][174]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.41.39:058][174]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.41.39:058][174]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2025.04.14-15.41.40:087][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.04.14-15.41.45:054][525]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.41.45:076][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/LV_Tutorial" FILE="../../../../UnrealProjects/FPSParkour/Content/Level/LV_Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.04.14-15.41.45:107][525]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.04.14-15.41.45:120][525]LogSavePackage: Moving output files for package: /Game/Level/LV_Tutorial
+[2025.04.14-15.41.45:121][525]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/LV_Tutorial363EDA6E4E2F643E980095A84FD667C2.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Level/LV_Tutorial.umap'
+[2025.04.14-15.41.45:127][525]LogFileHelpers: Saving map 'LV_Tutorial' took 0.051
+[2025.04.14-15.41.45:137][525]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.040 ms (total: 3.18 sec)
+[2025.04.14-15.41.45:163][525]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.41.45:163][525]LogContentValidation: Enabled validators:
+[2025.04.14-15.41.45:163][525]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.41.45:163][525]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.41.45:163][525]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.41.45:163][525]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.41.45:163][525]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.41.45:163][525]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.41.45:163][525]AssetCheck: /Game/Level/LV_Tutorial Validating asset
+[2025.04.14-15.42.57:841][450]LogStreaming: Display: FlushAsyncLoading(656): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.14-15.42.57:841][450]LogStreaming: Display: ImportPackages: SkipPackage: /Game/UI/Inventory/W_Interact (0xBE3417FE8A683FA7) /Game/UI/Inventory/W_Interact (0xBE3417FE8A683FA7) - Skipping non mounted imported package /Game/UI/T_Hint (0xD4B2B4AD1F8C29BF)
+[2025.04.14-15.42.57:845][450]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Inventory/W_Interact.W_Interact
+[2025.04.14-15.42.57:845][450]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2025.04.14-15.42.57:851][450]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_27
+[2025.04.14-15.42.58:273][450]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/UI/T_Hint which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.42.58:273][451]LoadErrors: Warning: While trying to load package /Game/UI/Inventory/W_Interact, a dependent package /Game/UI/T_Hint was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/UI/T_Hint has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'E:/UnrealProjects/FPSParkour/Content/UI/T_Hint.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.04.14-15.43.22:058][962]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.04.14-15.43.23:077][962]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.14-15.43.23:254][962]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.43.23:254][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.43.23:259][962]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.43.23:259][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.43.23:273][962]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/UI/Inventory/W_Interact.W_Interact
+	Asset Type: WidgetBlueprint
+[2025.04.14-15.43.23:931][962]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.04.14-15.43.23:951][962]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.04.14-15.43.23:969][962]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.04.14-15.43.23:994][962]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.04.14-15.43.25:561][146]LogStreaming: Display: FlushAsyncLoading(657): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.14-15.43.25:561][146]LogStreaming: Display: ImportPackages: SkipPackage: /Game/UI/Inventory/W_Inventory (0x148833066513B49F) /Game/UI/Inventory/W_Inventory (0x148833066513B49F) - Skipping non mounted imported package /Game/Blueprint/BP_MyGameInstance (0x3E03C1EB8775DF86)
+[2025.04.14-15.43.25:561][146]LogStreaming: Display: ImportPackages: SkipPackage: /Game/UI/Inventory/W_Inventory (0x148833066513B49F) /Game/UI/Inventory/W_Inventory (0x148833066513B49F) - Skipping non mounted imported package /Game/UI/W_InventorySlot (0x4BA289608FE5CDBE)
+[2025.04.14-15.43.25:570][146]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2025.04.14-15.43.25:570][146]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] In use pin  Item Name  no longer exists on node  Break BPS Item Structs . Please refresh node or break links to remove pin.
+[2025.04.14-15.43.25:570][146]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] In use pin  Quantity  no longer exists on node  Break BPS Item Structs . Please refresh node or break links to remove pin.
+[2025.04.14-15.43.25:570][146]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Could not find a variable named "TextBlockItemQuantity" in '/Game/UI/Inventory/W_Inventory.W_Inventory'.
+Make sure '/Game/UI/Inventory/W_Inventory.W_Inventory' has been compiled for  Get TextBlockItemQuantity
+[2025.04.14-15.43.25:570][146]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Could not find a variable named "TextBlockItemName" in '/Game/UI/Inventory/W_Inventory.W_Inventory'.
+Make sure '/Game/UI/Inventory/W_Inventory.W_Inventory' has been compiled for  Get TextBlockItemName
+[2025.04.14-15.43.25:571][146]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Could not find a variable named "PlayerInventory" in '/Game/UI/Inventory/W_Inventory.W_Inventory'.
+Make sure '/Game/UI/Inventory/W_Inventory.W_Inventory' has been compiled for  Get PlayerInventory
+[2025.04.14-15.43.25:571][146]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.04.14-15.43.25:571][146]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.04.14-15.43.25:571][146]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] In use pin  As BP My Game Instance  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2025.04.14-15.43.25:571][146]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Could not find a variable named "VerticalBoxQuantity" in '/Game/UI/Inventory/W_Inventory.W_Inventory'.
+Make sure '/Game/UI/Inventory/W_Inventory.W_Inventory' has been compiled for  Get VerticalBoxQuantity
+[2025.04.14-15.43.25:571][146]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Could not find a variable named "VerticalBoxItem" in '/Game/UI/Inventory/W_Inventory.W_Inventory'.
+Make sure '/Game/UI/Inventory/W_Inventory.W_Inventory' has been compiled for  Get VerticalBoxItem
+[2025.04.14-15.43.25:572][146]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] The property associated with  Player Inventory  could not be found in '/Game/UI/Inventory/W_Inventory.W_Inventory_C'
+[2025.04.14-15.43.25:575][146]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Inventory/W_Inventory.W_Inventory
+[2025.04.14-15.43.25:575][146]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_28
+[2025.04.14-15.43.25:582][146]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_29
+[2025.04.14-15.43.25:983][146]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Blueprint/BP_MyGameInstance which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.43.25:983][146]LoadErrors: Warning: While trying to load package /Game/UI/Inventory/W_Inventory, a dependent package /Game/Blueprint/BP_MyGameInstance was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Blueprint/BP_MyGameInstance has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'E:/UnrealProjects/FPSParkour/Content/Blueprint/BP_MyGameInstance.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.04.14-15.43.25:983][146]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/UI/W_InventorySlot which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.43.25:983][146]LoadErrors: Warning: While trying to load package /Game/UI/Inventory/W_Inventory, a dependent package /Game/UI/W_InventorySlot was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/UI/W_InventorySlot has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'E:/UnrealProjects/FPSParkour/Content/UI/W_InventorySlot.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.04.14-15.43.26:447][203]LogDerivedDataCache: C:/Users/isaie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.04.14-15.43.27:715][353]LogStreaming: Display: FlushAsyncLoading(658): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.14-15.43.27:716][353]LogStreaming: Display: ImportPackages: SkipPackage: /Game/UI/Inventory/W_InventorySlot (0x571D53065DBC7210) /Game/UI/Inventory/W_InventorySlot (0x571D53065DBC7210) - Skipping non mounted imported package /Game/Blueprint/BP_MyGameInstance (0x3E03C1EB8775DF86)
+[2025.04.14-15.43.27:722][353]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_InventorySlot.uasset: [Compiler] In use pin  Quantity  no longer exists on node  Break BPS Item Structs . Please refresh node or break links to remove pin.
+[2025.04.14-15.43.27:722][353]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_InventorySlot.uasset: [Compiler] In use pin  Is Found  no longer exists on node  FindItem . Please refresh node or break links to remove pin.
+[2025.04.14-15.43.27:722][353]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_InventorySlot.uasset: [Compiler] Could not find a variable named "PlayerInventory" in '/Game/UI/Inventory/W_InventorySlot.W_InventorySlot'.
+Make sure '/Game/UI/Inventory/W_InventorySlot.W_InventorySlot' has been compiled for  Get PlayerInventory
+[2025.04.14-15.43.27:723][353]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_InventorySlot.uasset: [Compiler] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.04.14-15.43.27:723][353]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_InventorySlot.uasset: [Compiler] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.04.14-15.43.27:723][353]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_InventorySlot.uasset: [Compiler] In use pin  As BP My Game Instance  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2025.04.14-15.43.27:723][353]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_InventorySlot.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Use Item . Please refresh node or break links to remove pin.
+[2025.04.14-15.43.27:723][353]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_InventorySlot.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Use Item . Please refresh node or break links to remove pin.
+[2025.04.14-15.43.27:723][353]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_InventorySlot.uasset: [Compiler] In use pin  Target  no longer exists on node  Use Item . Please refresh node or break links to remove pin.
+[2025.04.14-15.43.27:723][353]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_InventorySlot.uasset: [Compiler] In use pin  Inventory  no longer exists on node  Use Item . Please refresh node or break links to remove pin.
+[2025.04.14-15.43.27:723][353]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_InventorySlot.uasset: [Compiler] In use pin  Item Name  no longer exists on node  Use Item . Please refresh node or break links to remove pin.
+[2025.04.14-15.43.27:723][353]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_InventorySlot.uasset: [Compiler] Could not find a function named "UseItem" in 'BP_InventoryManager_C'.
+Make sure 'BP_InventoryManager_C' has been compiled for  Use Item
+[2025.04.14-15.43.27:723][353]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_InventorySlot.uasset: [Compiler] Could not find a variable named "Inventory" in '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C'.
+Make sure '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C' has been compiled for  Get Inventory
+[2025.04.14-15.43.27:723][353]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_InventorySlot.uasset: [Compiler] The property associated with  Player Inventory  could not be found in '/Game/UI/Inventory/W_InventorySlot.W_InventorySlot_C'
+[2025.04.14-15.43.27:724][353]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_InventorySlot.uasset: [Compiler] The property associated with  Inventory  could not be found in '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C'
+[2025.04.14-15.43.27:724][353]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_InventorySlot.uasset: [Compiler] Failed to find a struct member for  Quantity
+[2025.04.14-15.43.27:728][353]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Inventory/W_InventorySlot.W_InventorySlot
+[2025.04.14-15.43.27:728][353]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_30
+[2025.04.14-15.43.27:735][353]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_31
+[2025.04.14-15.43.28:175][353]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../UnrealProjects/FPSParkour/Content/Blueprint/BP_MyGameInstance which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.04.14-15.43.28:175][354]LoadErrors: Warning: While trying to load package /Game/UI/Inventory/W_InventorySlot, a dependent package /Game/Blueprint/BP_MyGameInstance was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Blueprint/BP_MyGameInstance has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'E:/UnrealProjects/FPSParkour/Content/Blueprint/BP_MyGameInstance.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.04.14-15.44.56:447][402]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.44.56:473][402]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/Inventory/W_InventorySlot] ([2] browsable assets)...
+[2025.04.14-15.44.56:477][402]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/Inventory/W_InventorySlot.W_InventorySlot]
+[2025.04.14-15.44.56:477][402]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Inventory/W_InventorySlot]
+[2025.04.14-15.44.56:477][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Inventory/W_InventorySlot" FILE="../../../../UnrealProjects/FPSParkour/Content/UI/Inventory/W_InventorySlot.uasset" SILENT=true
+[2025.04.14-15.44.56:486][402]LogSavePackage: Moving output files for package: /Game/UI/Inventory/W_InventorySlot
+[2025.04.14-15.44.56:486][402]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/W_InventorySlotA49753FD4DF409B11633888CAA22C55D.tmp' to '../../../../UnrealProjects/FPSParkour/Content/UI/Inventory/W_InventorySlot.uasset'
+[2025.04.14-15.44.56:496][402]LogFileHelpers: InternalPromptForCheckoutAndSave took 49.260 ms (total: 3.23 sec)
+[2025.04.14-15.44.56:524][402]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.44.56:524][402]LogContentValidation: Enabled validators:
+[2025.04.14-15.44.56:524][402]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.44.56:524][402]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.44.56:524][402]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.44.56:524][402]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.44.56:524][402]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.44.56:524][402]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.44.56:524][402]AssetCheck: /Game/UI/Inventory/W_InventorySlot Validating asset
+[2025.04.14-15.45.53:054][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.04.14-15.46.34:120][654]LogStreaming: Display: FlushAsyncLoading(659): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.14-15.46.34:120][654]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to '"/Script/Engine.BlueprintGeneratedClass'/Game/Blueprint/ItemInteraction/BPI_ItemUsable.BPI_ItemUsable_C'",MemberName="Usable",MemberGuid=F9ADA2DA4D640CA4BC8FC8AC53E8D2F0)'
+[2025.04.14-15.47.22:358][799]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.47.22:383][799]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/Inventory/BP_InventoryManager] ([2] browsable assets)...
+[2025.04.14-15.47.22:383][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Inventory/BP_InventoryManager]
+[2025.04.14-15.47.22:383][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Inventory/BP_InventoryManager" FILE="../../../../UnrealProjects/FPSParkour/Content/Blueprint/Inventory/BP_InventoryManager.uasset" SILENT=true
+[2025.04.14-15.47.22:404][799]LogSavePackage: Moving output files for package: /Game/Blueprint/Inventory/BP_InventoryManager
+[2025.04.14-15.47.22:404][799]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_InventoryManagerB3DF1B6C43F54FBD25D58EACA3885A75.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/Inventory/BP_InventoryManager.uasset'
+[2025.04.14-15.47.22:412][799]LogFileHelpers: InternalPromptForCheckoutAndSave took 54.087 ms (total: 3.28 sec)
+[2025.04.14-15.47.22:437][799]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.47.22:437][799]LogContentValidation: Enabled validators:
+[2025.04.14-15.47.22:437][799]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.47.22:437][799]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.47.22:437][799]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.47.22:437][799]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.47.22:437][799]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.47.22:437][799]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.47.22:437][799]AssetCheck: /Game/Blueprint/Inventory/BP_InventoryManager Validating asset
+[2025.04.14-15.47.22:451][799]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3949.749756
+[2025.04.14-15.47.22:508][806]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.14-15.47.22:508][807]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3949.798828, Update Interval: 334.033020
+[2025.04.14-15.47.23:371][909]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\Blueprint\Inventory\BP_InventoryManager.uasset: [Compiler] Message node  Invalid Message Node  has an invalid interface.
+[2025.04.14-15.47.23:371][909]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\Blueprint\Inventory\BP_InventoryManager.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Invalid Message Node . Please refresh node or break links to remove pin.
+[2025.04.14-15.47.23:371][909]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\Blueprint\Inventory\BP_InventoryManager.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Invalid Message Node . Please refresh node or break links to remove pin.
+[2025.04.14-15.47.23:371][909]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\Blueprint\Inventory\BP_InventoryManager.uasset: [Compiler] In use pin  Target  no longer exists on node  Invalid Message Node . Please refresh node or break links to remove pin.
+[2025.04.14-15.47.23:371][909]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\Blueprint\Inventory\BP_InventoryManager.uasset: [Compiler] Could not find a function named "Usable" in 'BP_InventoryManager'.
+Make sure 'BP_InventoryManager' has been compiled for  Invalid Message Node
+[2025.04.14-15.47.23:371][909]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\Blueprint\Inventory\BP_InventoryManager.uasset: [Compiler] In use pin  Item Name  no longer exists on node  Break BPS Item Structs . Please refresh node or break links to remove pin.
+[2025.04.14-15.47.23:371][909]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\Blueprint\Inventory\BP_InventoryManager.uasset: [Compiler] In use pin  Quantity  no longer exists on node  Break BPS Item Structs . Please refresh node or break links to remove pin.
+[2025.04.14-15.47.23:371][909]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\Blueprint\Inventory\BP_InventoryManager.uasset: [Compiler] In use pin  Class  no longer exists on node  Break BPS Item Structs . Please refresh node or break links to remove pin.
+[2025.04.14-15.47.23:371][909]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\Blueprint\Inventory\BP_InventoryManager.uasset: [Compiler] In use pin  Item Name  no longer exists on node  Make BPS Item Structs . Please refresh node or break links to remove pin.
+[2025.04.14-15.47.23:371][909]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\Blueprint\Inventory\BP_InventoryManager.uasset: [Compiler] In use pin  Quantity  no longer exists on node  Make BPS Item Structs . Please refresh node or break links to remove pin.
+[2025.04.14-15.47.23:371][909]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\Blueprint\Inventory\BP_InventoryManager.uasset: [Compiler] In use pin  Class  no longer exists on node  Make BPS Item Structs . Please refresh node or break links to remove pin.
+[2025.04.14-15.47.23:371][909]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\Blueprint\Inventory\BP_InventoryManager.uasset: [Compiler] Could not find a variable named "Index" in '/Game/Blueprint/Inventory/BP_InventoryManager.BP_InventoryManager_C'.
+Make sure '/Game/Blueprint/Inventory/BP_InventoryManager.BP_InventoryManager_C' has been compiled for  Get Index
+[2025.04.14-15.47.23:371][909]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\Blueprint\Inventory\BP_InventoryManager.uasset: [Compiler] Could not find a variable named "Index" in '/Game/Blueprint/Inventory/BP_InventoryManager.BP_InventoryManager_C'.
+Make sure '/Game/Blueprint/Inventory/BP_InventoryManager.BP_InventoryManager_C' has been compiled for  Set Index
+[2025.04.14-15.47.23:371][909]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\Blueprint\Inventory\BP_InventoryManager.uasset: [Compiler] Could not find a variable named "Index" in '/Game/Blueprint/Inventory/BP_InventoryManager.BP_InventoryManager_C'.
+Make sure '/Game/Blueprint/Inventory/BP_InventoryManager.BP_InventoryManager_C' has been compiled for  Get Index
+[2025.04.14-15.47.23:409][909]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.04.14-15.48.09:532][713]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.48.09:560][713]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/Inventory/BP_InventoryManager] ([2] browsable assets)...
+[2025.04.14-15.48.09:560][713]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Inventory/BP_InventoryManager]
+[2025.04.14-15.48.09:560][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Inventory/BP_InventoryManager" FILE="../../../../UnrealProjects/FPSParkour/Content/Blueprint/Inventory/BP_InventoryManager.uasset" SILENT=true
+[2025.04.14-15.48.09:579][713]LogSavePackage: Moving output files for package: /Game/Blueprint/Inventory/BP_InventoryManager
+[2025.04.14-15.48.09:579][713]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_InventoryManager0500E9584DE357A7730440946A392687.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/Inventory/BP_InventoryManager.uasset'
+[2025.04.14-15.48.09:588][713]LogFileHelpers: InternalPromptForCheckoutAndSave took 56.685 ms (total: 3.34 sec)
+[2025.04.14-15.48.09:618][713]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.48.09:618][713]LogContentValidation: Enabled validators:
+[2025.04.14-15.48.09:618][713]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.48.09:618][713]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.48.09:618][713]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.48.09:618][713]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.48.09:618][713]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.48.09:618][713]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.48.09:618][713]AssetCheck: /Game/Blueprint/Inventory/BP_InventoryManager Validating asset
+[2025.04.14-15.48.35:673][ 19]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.04.14-15.48.39:376][348]LogContentBrowser: Deferred new asset file creation: NewInterface
+[2025.04.14-15.48.39:384][348]LogContentBrowser: Creating deferred item: NewInterface
+[2025.04.14-15.48.39:397][349]LogContentBrowser: Renaming the item being created (Deferred Item: NewInterface).
+[2025.04.14-15.48.44:099][910]LogContentBrowser: Attempting asset rename: NewInterface -> BPI_Usable
+[2025.04.14-15.48.44:188][910]LogContentBrowser: End creating deferred item NewInterface
+[2025.04.14-15.48.45:335][ 34]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/ItemsInteraction/BPI_Usable.BPI_Usable
+[2025.04.14-15.48.45:335][ 34]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_33
+[2025.04.14-15.48.49:340][464]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.48.49:366][464]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ItemsInteraction/BPI_Usable] ([2] browsable assets)...
+[2025.04.14-15.48.49:366][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ItemsInteraction/BPI_Usable]
+[2025.04.14-15.48.49:366][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/ItemsInteraction/BPI_Usable" FILE="../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BPI_Usable.uasset" SILENT=true
+[2025.04.14-15.48.49:367][464]LogSavePackage: Moving output files for package: /Game/Blueprint/ItemsInteraction/BPI_Usable
+[2025.04.14-15.48.49:367][464]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BPI_UsableD512D6004BB76B4BF3E7B8BB47107800.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/ItemsInteraction/BPI_Usable.uasset'
+[2025.04.14-15.48.49:503][464]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2025.04.14-15.48.49:503][464]SourceControl: Error: Content/Blueprint
+[2025.04.14-15.48.49:503][464]SourceControl: Error: hint: Use -f if you really want to add them.
+[2025.04.14-15.48.49:503][464]SourceControl: Error: hint: Disable this message with "git config set advice.addIgnoredFile false"
+[2025.04.14-15.48.49:507][464]LogFileHelpers: InternalPromptForCheckoutAndSave took 167.411 ms (total: 3.51 sec)
+[2025.04.14-15.48.49:535][464]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.48.49:535][464]LogContentValidation: Enabled validators:
+[2025.04.14-15.48.49:535][464]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.48.49:535][464]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.48.49:535][464]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.48.49:535][464]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.48.49:535][464]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.48.49:535][464]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.48.49:535][464]AssetCheck: /Game/Blueprint/ItemsInteraction/BPI_Usable Validating asset
+[2025.04.14-15.48.49:846][495]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.04.14-15.48.52:307][775]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.48.52:307][775]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.48.52:343][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.04.14-15.48.52:945][844]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.48.52:945][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.48.52:950][844]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.48.52:950][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.48.53:006][844]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.04.14-15.48.55:378][124]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.48.55:378][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.48.55:382][124]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.48.55:382][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.48.55:421][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.04.14-15.50.04:954][842]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.04.14-15.50.07:902][182]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2025.04.14-15.50.07:902][182]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] In use pin  Item Name  no longer exists on node  Break BPS Item Structs . Please refresh node or break links to remove pin.
+[2025.04.14-15.50.07:902][182]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] In use pin  Quantity  no longer exists on node  Break BPS Item Structs . Please refresh node or break links to remove pin.
+[2025.04.14-15.50.07:902][182]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Could not find a variable named "TextBlockItemQuantity" in '/Game/UI/Inventory/W_Inventory.W_Inventory'.
+Make sure '/Game/UI/Inventory/W_Inventory.W_Inventory' has been compiled for  Get TextBlockItemQuantity
+[2025.04.14-15.50.07:902][182]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Could not find a variable named "TextBlockItemName" in '/Game/UI/Inventory/W_Inventory.W_Inventory'.
+Make sure '/Game/UI/Inventory/W_Inventory.W_Inventory' has been compiled for  Get TextBlockItemName
+[2025.04.14-15.50.07:902][182]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Could not find a variable named "PlayerInventory" in '/Game/UI/Inventory/W_Inventory.W_Inventory'.
+Make sure '/Game/UI/Inventory/W_Inventory.W_Inventory' has been compiled for  Get PlayerInventory
+[2025.04.14-15.50.07:902][182]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.04.14-15.50.07:902][182]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.04.14-15.50.07:902][182]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] In use pin  As BP My Game Instance  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2025.04.14-15.50.07:902][182]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Could not find a variable named "VerticalBoxQuantity" in '/Game/UI/Inventory/W_Inventory.W_Inventory'.
+Make sure '/Game/UI/Inventory/W_Inventory.W_Inventory' has been compiled for  Get VerticalBoxQuantity
+[2025.04.14-15.50.07:902][182]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Could not find a variable named "VerticalBoxItem" in '/Game/UI/Inventory/W_Inventory.W_Inventory'.
+Make sure '/Game/UI/Inventory/W_Inventory.W_Inventory' has been compiled for  Get VerticalBoxItem
+[2025.04.14-15.50.07:903][182]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] The property associated with  Player Inventory  could not be found in '/Game/UI/Inventory/W_Inventory.W_Inventory_C'
+[2025.04.14-15.50.07:925][182]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.04.14-15.50.13:204][769]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.50.13:204][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.50.13:209][769]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.50.13:209][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.50.13:294][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.04.14-15.50.14:567][917]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.04.14-15.50.15:054][960]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.04.14-15.50.16:061][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.04.14-15.50.17:051][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.04.14-15.50.33:630][832]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Inventory/W_Inventory.W_Inventory
+[2025.04.14-15.50.33:631][832]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_34
+[2025.04.14-15.50.33:640][832]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_35
+[2025.04.14-15.50.35:178][968]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Inventory/W_InventorySlot.W_InventorySlot
+[2025.04.14-15.50.35:178][968]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_36
+[2025.04.14-15.50.35:187][968]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_37
+[2025.04.14-15.50.36:980][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.04.14-15.51.57:307][749]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_InventorySlot.uasset: [Compiler] In use pin  Is Found  no longer exists on node  FindItem . Please refresh node or break links to remove pin.
+[2025.04.14-15.51.57:361][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.04.14-15.52.00:967][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.04.14-15.52.05:183][647]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.04.14-15.52.06:126][647]LogSlate: Window 'Save Content' being destroyed
+[2025.04.14-15.52.06:263][647]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.52.06:289][647]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/Inventory/BP_InventoryManager] ([2] browsable assets)...
+[2025.04.14-15.52.06:289][647]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Inventory/BP_InventoryManager]
+[2025.04.14-15.52.06:289][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Inventory/BP_InventoryManager" FILE="../../../../UnrealProjects/FPSParkour/Content/Blueprint/Inventory/BP_InventoryManager.uasset" SILENT=true
+[2025.04.14-15.52.06:308][647]LogSavePackage: Moving output files for package: /Game/Blueprint/Inventory/BP_InventoryManager
+[2025.04.14-15.52.06:308][647]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_InventoryManager58B74F3A492AD3EE95D84B92725EA6D6.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Blueprint/Inventory/BP_InventoryManager.uasset'
+[2025.04.14-15.52.06:309][647]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/Inventory/W_InventorySlot] ([2] browsable assets)...
+[2025.04.14-15.52.06:312][647]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/Inventory/W_InventorySlot.W_InventorySlot]
+[2025.04.14-15.52.06:312][647]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Inventory/W_InventorySlot]
+[2025.04.14-15.52.06:312][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Inventory/W_InventorySlot" FILE="../../../../UnrealProjects/FPSParkour/Content/UI/Inventory/W_InventorySlot.uasset" SILENT=true
+[2025.04.14-15.52.06:322][647]LogSavePackage: Moving output files for package: /Game/UI/Inventory/W_InventorySlot
+[2025.04.14-15.52.06:322][647]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/W_InventorySlotA89C1E5E410B4C2EA56F57933963CA12.tmp' to '../../../../UnrealProjects/FPSParkour/Content/UI/Inventory/W_InventorySlot.uasset'
+[2025.04.14-15.52.06:329][647]LogFileHelpers: InternalPromptForCheckoutAndSave took 65.306 ms (total: 3.57 sec)
+[2025.04.14-15.52.06:360][647]LogContentValidation: Display: Starting to validate 2 assets
+[2025.04.14-15.52.06:360][647]LogContentValidation: Enabled validators:
+[2025.04.14-15.52.06:360][647]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.52.06:360][647]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.52.06:360][647]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.52.06:360][647]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.52.06:360][647]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.52.06:360][647]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.52.06:360][647]AssetCheck: /Game/Blueprint/Inventory/BP_InventoryManager Validating asset
+[2025.04.14-15.52.06:361][647]AssetCheck: /Game/UI/Inventory/W_InventorySlot Validating asset
+[2025.04.14-15.53.29:334][176]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] In use pin  Item Name  no longer exists on node  Break BPS Item Structs . Please refresh node or break links to remove pin.
+[2025.04.14-15.53.29:334][176]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] In use pin  Quantity  no longer exists on node  Break BPS Item Structs . Please refresh node or break links to remove pin.
+[2025.04.14-15.53.29:334][176]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Could not find a variable named "TextBlockItemQuantity" in '/Game/UI/Inventory/W_Inventory.W_Inventory'.
+Make sure '/Game/UI/Inventory/W_Inventory.W_Inventory' has been compiled for  Get TextBlockItemQuantity
+[2025.04.14-15.53.29:335][176]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Could not find a variable named "TextBlockItemName" in '/Game/UI/Inventory/W_Inventory.W_Inventory'.
+Make sure '/Game/UI/Inventory/W_Inventory.W_Inventory' has been compiled for  Get TextBlockItemName
+[2025.04.14-15.53.29:335][176]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Could not find a variable named "VerticalBoxQuantity" in '/Game/UI/Inventory/W_Inventory.W_Inventory'.
+Make sure '/Game/UI/Inventory/W_Inventory.W_Inventory' has been compiled for  Get VerticalBoxQuantity
+[2025.04.14-15.53.29:335][176]LogBlueprint: Warning: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Could not find a variable named "VerticalBoxItem" in '/Game/UI/Inventory/W_Inventory.W_Inventory'.
+Make sure '/Game/UI/Inventory/W_Inventory.W_Inventory' has been compiled for  Get VerticalBoxItem
+[2025.04.14-15.53.29:336][176]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2025.04.14-15.53.29:336][176]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2025.04.14-15.53.29:336][176]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2025.04.14-15.53.29:336][176]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2025.04.14-15.53.29:336][176]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] The property associated with  Vertical Box Item  could not be found in '/Game/UI/Inventory/W_Inventory.W_Inventory_C'
+[2025.04.14-15.53.29:336][176]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] The property associated with  Vertical Box Quantity  could not be found in '/Game/UI/Inventory/W_Inventory.W_Inventory_C'
+[2025.04.14-15.53.29:336][176]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] The property associated with  Text Block Item Name  could not be found in '/Game/UI/Inventory/W_Inventory.W_Inventory_C'
+[2025.04.14-15.53.29:336][176]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] The property associated with  Text Block Item Quantity  could not be found in '/Game/UI/Inventory/W_Inventory.W_Inventory_C'
+[2025.04.14-15.53.29:336][176]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Failed to find a struct member for  Item Name
+[2025.04.14-15.53.29:336][176]LogBlueprint: Error: [AssetLog] E:\UnrealProjects\FPSParkour\Content\UI\Inventory\W_Inventory.uasset: [Compiler] Failed to find a struct member for  Quantity
+[2025.04.14-15.53.29:391][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.04.14-15.53.30:807][326]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4318.108887
+[2025.04.14-15.53.30:883][335]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.14-15.53.30:883][335]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4318.176270, Update Interval: 303.843506
+[2025.04.14-15.55.04:689][560]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.04.14-15.55.06:097][701]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.55.06:121][701]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/Inventory/W_Inventory] ([2] browsable assets)...
+[2025.04.14-15.55.06:124][701]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/Inventory/W_Inventory.W_Inventory]
+[2025.04.14-15.55.06:124][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Inventory/W_Inventory]
+[2025.04.14-15.55.06:124][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Inventory/W_Inventory" FILE="../../../../UnrealProjects/FPSParkour/Content/UI/Inventory/W_Inventory.uasset" SILENT=true
+[2025.04.14-15.55.06:136][701]LogSavePackage: Moving output files for package: /Game/UI/Inventory/W_Inventory
+[2025.04.14-15.55.06:137][701]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/W_Inventory22378A5E47BCA8273D4B6CA4AC903445.tmp' to '../../../../UnrealProjects/FPSParkour/Content/UI/Inventory/W_Inventory.uasset'
+[2025.04.14-15.55.06:143][701]LogFileHelpers: InternalPromptForCheckoutAndSave took 46.774 ms (total: 3.62 sec)
+[2025.04.14-15.55.06:171][701]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.55.06:171][701]LogContentValidation: Enabled validators:
+[2025.04.14-15.55.06:171][701]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.55.06:171][701]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.55.06:171][701]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.55.06:171][701]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.55.06:171][701]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.55.06:171][701]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.55.06:172][701]AssetCheck: /Game/UI/Inventory/W_Inventory Validating asset
+[2025.04.14-15.55.08:340][950]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.55.08:367][950]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/Inventory/W_Inventory] ([2] browsable assets)...
+[2025.04.14-15.55.08:367][950]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Inventory/W_Inventory]
+[2025.04.14-15.55.08:367][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Inventory/W_Inventory" FILE="../../../../UnrealProjects/FPSParkour/Content/UI/Inventory/W_Inventory.uasset" SILENT=true
+[2025.04.14-15.55.08:378][950]LogSavePackage: Moving output files for package: /Game/UI/Inventory/W_Inventory
+[2025.04.14-15.55.08:378][950]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/W_InventoryB5492747419B170141A06997DF407389.tmp' to '../../../../UnrealProjects/FPSParkour/Content/UI/Inventory/W_Inventory.uasset'
+[2025.04.14-15.55.08:387][950]LogFileHelpers: InternalPromptForCheckoutAndSave took 47.219 ms (total: 3.67 sec)
+[2025.04.14-15.55.08:418][950]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.55.08:418][950]LogContentValidation: Enabled validators:
+[2025.04.14-15.55.08:418][950]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.55.08:418][950]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.55.08:418][950]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.55.08:418][950]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.55.08:418][950]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.55.08:418][950]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.55.08:418][950]AssetCheck: /Game/UI/Inventory/W_Inventory Validating asset
+[2025.04.14-15.57.34:674][811]LogStreaming: Display: FlushAsyncLoading(661): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.14-15.58.34:507][653]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.14-15.58.34:516][653]LogPlayLevel: [PlayLevel] Compiling BP_FirstPersonCharacter before play...
+[2025.04.14-15.58.34:651][653]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.04.14-15.58.34:652][653]LogPlayLevel: PlayLevel: Blueprint regeneration took 140 ms (1 blueprints)
+[2025.04.14-15.58.34:652][653]LogPlayLevel: Display: Creating online subsystem for client :Context_44
+[2025.04.14-15.58.34:655][653]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2025.04.14-15.58.34:702][654]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_LV_Tutorial
+[2025.04.14-15.58.34:706][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003578s)
+[2025.04.14-15.58.34:706][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/LV_Tutorial.LV_Tutorial to /Game/Level/UEDPIE_0_LV_Tutorial.LV_Tutorial (0.003618s)
+[2025.04.14-15.58.34:723][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.04.14-15.58.34:725][654]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_Tutorial
+[2025.04.14-15.58.34:727][654]LogPlayLevel: PIE: World Init took: (0.001459s)
+[2025.04.14-15.58.34:727][654]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.04.14-15.58.34:727][654]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.14-15.58.34:727][654]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.14-15.58.34:727][654]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.14-15.58.34:727][654]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.14-15.58.34:727][654]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.14-15.58.34:727][654]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.14-15.58.34:727][654]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.14-15.58.34:727][654]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.14-15.58.34:727][654]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.14-15.58.34:727][654]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.14-15.58.34:728][654]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.14-15.58.34:730][654]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.14-15.58.34:750][654]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2025.04.14-15.58.34:750][654]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.14-15.58.34:750][654]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.14-15.58.34:750][654]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.14-15.58.34:751][654]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.04.14-15.58.34:751][654]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=11
+[2025.04.14-15.58.34:754][654]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.04.14-15.58.34:754][654]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.04.14-15.58.34:754][654]LogInit: FAudioDevice initialized with ID 11.
+[2025.04.14-15.58.34:754][654]LogAudio: Display: Audio Device (ID: 11) registered with world 'LV_Tutorial'.
+[2025.04.14-15.58.34:754][654]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.04.14-15.58.34:776][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.14-15.58.34:776][654]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.14-15.58.34:778][654]LogWorld: Bringing World /Game/Level/UEDPIE_0_LV_Tutorial.LV_Tutorial up for play (max tick rate 0) at 2025.04.14-11.58.34
+[2025.04.14-15.58.34:779][654]LogWorld: Bringing up level for play took: 0.002018
+[2025.04.14-15.58.34:784][654]PIE: Server logged in
+[2025.04.14-15.58.34:785][654]PIE: Play in editor total start time 0.274 seconds.
+[2025.04.14-15.58.35:594][723]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.04.14-15.58.35:594][723]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2025.04.14-15.58.36:743][859]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.04.14-15.58.36:743][859]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.04.14-15.58.38:616][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.14-15.58.38:616][ 66]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_LV_Tutorial
+[2025.04.14-15.58.38:617][ 66]LogSlate: Window 'FPSParkour Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.04.14-15.58.38:622][ 66]LogWorld: UWorld::CleanupWorld for LV_Tutorial, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.58.38:623][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.58.38:625][ 66]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.14-15.58.38:628][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.58.38:648][ 66]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.04.14-15.58.38:648][ 66]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.04.14-15.58.38:650][ 66]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.04.14-15.58.38:657][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.04.14-15.58.38:714][ 67]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2025.04.14-15.58.42:695][513]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.58.42:723][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/LV_Tutorial" FILE="../../../../UnrealProjects/FPSParkour/Content/Level/LV_Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.04.14-15.58.42:757][513]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.04.14-15.58.42:770][513]LogSavePackage: Moving output files for package: /Game/Level/LV_Tutorial
+[2025.04.14-15.58.42:770][513]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/LV_TutorialA9E62B23420946661A6DA9B664177561.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Level/LV_Tutorial.umap'
+[2025.04.14-15.58.42:777][513]LogFileHelpers: Saving map 'LV_Tutorial' took 0.053
+[2025.04.14-15.58.42:785][513]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.493 ms (total: 3.76 sec)
+[2025.04.14-15.58.42:816][513]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.58.42:816][513]LogContentValidation: Enabled validators:
+[2025.04.14-15.58.42:816][513]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.58.42:816][513]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.58.42:816][513]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.58.42:816][513]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.58.42:816][513]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.58.42:816][513]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.58.42:816][513]AssetCheck: /Game/Level/LV_Tutorial Validating asset
+[2025.04.14-15.58.44:207][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.04.14-15.58.45:066][657]LogSlate: Window 'Save Content' being destroyed
+[2025.04.14-15.58.45:172][657]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.58.45:195][657]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.04.14-15.58.45:206][657]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2025.04.14-15.58.45:206][657]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.04.14-15.58.45:206][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter" FILE="../../../../UnrealProjects/FPSParkour/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2025.04.14-15.58.45:267][657]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.04.14-15.58.45:267][657]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/BP_FirstPersonCharacter59E90BA7410A1D2C43C4CE9A3AF369C5.tmp' to '../../../../UnrealProjects/FPSParkour/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.04.14-15.58.45:277][657]LogFileHelpers: InternalPromptForCheckoutAndSave took 105.714 ms (total: 3.86 sec)
+[2025.04.14-15.58.45:303][657]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.58.45:303][657]LogContentValidation: Enabled validators:
+[2025.04.14-15.58.45:303][657]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.58.45:303][657]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.58.45:303][657]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.58.45:303][657]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.58.45:303][657]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.58.45:303][657]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.58.45:303][657]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2025.04.14-15.58.55:530][780]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/Items/BP_Key.BP_Key_C
+[2025.04.14-15.58.55:530][780]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/Items/BP_Key.BP_Key_C
+[2025.04.14-15.58.55:532][780]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/Items/BP_Key.BP_Key as actor: BP_Key_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_Key_C_0
+[2025.04.14-15.58.55:534][780]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/Items/BP_Key.BP_Key as actor: BP_Key_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_Key_C_0
+[2025.04.14-15.58.56:045][828]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.04.14-15.58.56:045][828]LogEditorActor: Deleted 0 Actors (0.016 secs)
+[2025.04.14-15.58.56:054][828]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/Items/BP_Key.BP_Key_C
+[2025.04.14-15.58.56:054][828]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/Items/BP_Key.BP_Key_C
+[2025.04.14-15.58.56:058][828]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/Items/BP_Key.BP_Key as actor: BP_Key_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_Key_C_1
+[2025.04.14-15.58.56:059][828]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/Items/BP_Key.BP_Key as actor: BP_Key_C /Game/Level/LV_Tutorial.LV_Tutorial:PersistentLevel.BP_Key_C_1
+[2025.04.14-15.59.01:414][441]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.14-15.59.01:419][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.14-15.59.01:446][441]LogPlayLevel: Display: Creating online subsystem for client :Context_45
+[2025.04.14-15.59.01:448][441]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2025.04.14-15.59.01:480][442]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_LV_Tutorial
+[2025.04.14-15.59.01:484][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003294s)
+[2025.04.14-15.59.01:484][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/LV_Tutorial.LV_Tutorial to /Game/Level/UEDPIE_0_LV_Tutorial.LV_Tutorial (0.003338s)
+[2025.04.14-15.59.01:501][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.04.14-15.59.01:504][442]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_Tutorial
+[2025.04.14-15.59.01:505][442]LogPlayLevel: PIE: World Init took: (0.001458s)
+[2025.04.14-15.59.01:505][442]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.04.14-15.59.01:505][442]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.14-15.59.01:505][442]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.14-15.59.01:505][442]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.14-15.59.01:505][442]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.14-15.59.01:505][442]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.14-15.59.01:505][442]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.14-15.59.01:505][442]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.14-15.59.01:505][442]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.14-15.59.01:505][442]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.14-15.59.01:505][442]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.14-15.59.01:505][442]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.14-15.59.01:509][442]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.14-15.59.01:527][442]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2025.04.14-15.59.01:527][442]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.14-15.59.01:527][442]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.14-15.59.01:527][442]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.14-15.59.01:527][442]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.04.14-15.59.01:528][442]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=12
+[2025.04.14-15.59.01:530][442]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.04.14-15.59.01:530][442]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.04.14-15.59.01:530][442]LogInit: FAudioDevice initialized with ID 12.
+[2025.04.14-15.59.01:530][442]LogAudio: Display: Audio Device (ID: 12) registered with world 'LV_Tutorial'.
+[2025.04.14-15.59.01:530][442]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.04.14-15.59.01:533][442]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.14-15.59.01:534][442]LogWorld: Bringing World /Game/Level/UEDPIE_0_LV_Tutorial.LV_Tutorial up for play (max tick rate 0) at 2025.04.14-11.59.01
+[2025.04.14-15.59.01:535][442]LogWorld: Bringing up level for play took: 0.001519
+[2025.04.14-15.59.01:537][442]PIE: Server logged in
+[2025.04.14-15.59.01:538][442]PIE: Play in editor total start time 0.119 seconds.
+[2025.04.14-15.59.04:966][838]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.14-15.59.04:967][838]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_LV_Tutorial
+[2025.04.14-15.59.04:967][838]LogWorld: UWorld::CleanupWorld for LV_Tutorial, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.59.04:967][838]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.59.04:972][838]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.14-15.59.04:975][838]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.59.04:992][838]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.14-15.59.04:992][838]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.04.14-15.59.04:992][838]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.04.14-15.59.04:994][838]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.04.14-15.59.04:998][838]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.14-15.59.05:001][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.04.14-15.59.05:060][839]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2025.04.14-15.59.12:304][556]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.14-15.59.12:309][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.14-15.59.12:346][556]LogPlayLevel: Display: Creating online subsystem for client :Context_46
+[2025.04.14-15.59.12:348][556]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2025.04.14-15.59.12:389][557]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_LV_Tutorial
+[2025.04.14-15.59.12:393][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005042s)
+[2025.04.14-15.59.12:393][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/LV_Tutorial.LV_Tutorial to /Game/Level/UEDPIE_0_LV_Tutorial.LV_Tutorial (0.005101s)
+[2025.04.14-15.59.12:412][557]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.04.14-15.59.12:415][557]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_Tutorial
+[2025.04.14-15.59.12:418][557]LogPlayLevel: PIE: World Init took: (0.002201s)
+[2025.04.14-15.59.12:420][557]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.04.14-15.59.12:420][557]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.14-15.59.12:420][557]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.14-15.59.12:420][557]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.14-15.59.12:420][557]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.14-15.59.12:420][557]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.14-15.59.12:420][557]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.14-15.59.12:420][557]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.14-15.59.12:420][557]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.14-15.59.12:420][557]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.14-15.59.12:420][557]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.14-15.59.12:420][557]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.14-15.59.12:423][557]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.14-15.59.12:448][557]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2025.04.14-15.59.12:448][557]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.14-15.59.12:448][557]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.14-15.59.12:448][557]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.14-15.59.12:449][557]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.04.14-15.59.12:449][557]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=13
+[2025.04.14-15.59.12:452][557]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.04.14-15.59.12:452][557]LogInit: FAudioDevice initialized with ID 13.
+[2025.04.14-15.59.12:452][557]LogAudio: Display: Audio Device (ID: 13) registered with world 'LV_Tutorial'.
+[2025.04.14-15.59.12:452][557]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.04.14-15.59.12:452][557]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.04.14-15.59.12:455][557]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.14-15.59.12:458][557]LogWorld: Bringing World /Game/Level/UEDPIE_0_LV_Tutorial.LV_Tutorial up for play (max tick rate 0) at 2025.04.14-11.59.12
+[2025.04.14-15.59.12:458][557]LogWorld: Bringing up level for play took: 0.002945
+[2025.04.14-15.59.12:463][557]PIE: Server logged in
+[2025.04.14-15.59.12:463][557]PIE: Play in editor total start time 0.155 seconds.
+[2025.04.14-15.59.14:190][749]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.04.14-15.59.14:190][749]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2025.04.14-15.59.17:807][177]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.14-15.59.17:807][177]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_LV_Tutorial
+[2025.04.14-15.59.17:807][177]LogWorld: UWorld::CleanupWorld for LV_Tutorial, bSessionEnded=true, bCleanupResources=true
+[2025.04.14-15.59.17:808][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.59.17:811][177]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.14-15.59.17:815][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.14-15.59.17:830][177]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.14-15.59.17:830][177]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.04.14-15.59.17:830][177]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.04.14-15.59.17:833][177]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.04.14-15.59.17:837][177]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.14-15.59.17:838][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.04.14-15.59.17:887][178]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2025.04.14-15.59.19:673][374]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.04.14-15.59.22:880][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.04.14-15.59.23:623][718]LogSlate: Window 'Save Content' being destroyed
+[2025.04.14-15.59.23:728][718]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.14-15.59.23:754][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/LV_Tutorial" FILE="../../../../UnrealProjects/FPSParkour/Content/Level/LV_Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.04.14-15.59.23:787][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.04.14-15.59.23:799][718]LogSavePackage: Moving output files for package: /Game/Level/LV_Tutorial
+[2025.04.14-15.59.23:799][718]LogSavePackage: Moving '../../../../UnrealProjects/FPSParkour/Saved/LV_TutorialD424EC8544AD3A75A51357BC14078992.tmp' to '../../../../UnrealProjects/FPSParkour/Content/Level/LV_Tutorial.umap'
+[2025.04.14-15.59.23:806][718]LogFileHelpers: Saving map 'LV_Tutorial' took 0.052
+[2025.04.14-15.59.23:818][718]LogFileHelpers: InternalPromptForCheckoutAndSave took 88.899 ms (total: 3.95 sec)
+[2025.04.14-15.59.23:853][718]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.14-15.59.23:853][718]LogContentValidation: Enabled validators:
+[2025.04.14-15.59.23:853][718]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.14-15.59.23:853][718]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.14-15.59.23:853][718]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.14-15.59.23:853][718]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.14-15.59.23:853][718]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.14-15.59.23:853][718]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.14-15.59.23:853][718]AssetCheck: /Game/Level/LV_Tutorial Validating asset
+[2025.04.14-15.59.25:303][809]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4672.577148
+[2025.04.14-15.59.26:300][812]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.14-15.59.26:301][812]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4673.242676, Update Interval: 301.151764
