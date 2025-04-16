@@ -8,15 +8,15 @@
 !.gitignore
 !/*.uproject
 
+# Ignore most of the Content folder (besides exceptions above)
+# This line can be removed if you want more folders tracked manually
+/Content/*
+
 # Allow source code and key content folders
 !/Source/
 !/Config/
 !/Content/Blueprint/**
 !/Content/FirstPerson/**
-
-# Ignore most of the Content folder (besides exceptions above)
-# This line can be removed if you want more folders tracked manually
-/Content/*
 
 # Build, intermediate, cache, and saved folders – ignore them
 /Binaries/
