@@ -2,7 +2,7 @@
 
 
 
-First personne game developed with only Blueprints.
+First-person game developed with only **Blueprints**.
 
 Focus on the movement mechanisms: slide, grab, wall-run, dash. 
 
