@@ -16,23 +16,23 @@ Play the Demo: https://egril011.itch.io/parkour-game · Rapport PDF : [./report.
 
 
 
-\## Principal Mechanics 
+## Principal Mechanics 
 
-\*\*Slide\*\*
+**Slide**
 
-<img src="GIF/Slide.gif" width=""320 alt="Slide-demo">
-
-
-
-\*\*Grab\*\*
-
-<img src="GIF/Grab.gif" width=""320 alt="Grab-demo">
+<img src="GIF/Slide.gif" width="320" alt="Slide-demo">
 
 
 
-\*\*Wall-run\*\*
+**Grab**
 
-<img src="GIF/WallRun.gif" width=""320 alt="Wall run-Demo">
+<img src="GIF/Grab.gif" width="320" alt="Grab-demo">
+
+
+
+**Wall-run**
+
+<img src="GIF/WallRun.gif" width="320" alt="Wall run-Demo">
 
 
 
